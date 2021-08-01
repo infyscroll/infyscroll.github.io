@@ -1,5 +1,65 @@
 [
 {
+  "resource_url": "http://wedata.net/items/85702",
+  "data": {
+    "pageElement": "//main[contains(@class,\"main\")]/div[contains(@class,\"WorkLayout\")]",
+    "comment": "小説ページが動的に生成されているためうまく動作しない？",
+    "nextLink": "//nav[contains(@class,\"next\")]/a[contains(@class,\"Link\")]",
+    "url": "^https://maho\\.jp/works/[0-9]+#",
+    "exampleUrl": "https://maho.jp/works/15591074771453793471#15591074771454020216\r\nhttps://maho.jp/works/16743963567763177299#16743963567763196460"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "kasana",
+  "name": "魔法のiらんどworks",
+  "created_at": "2021-07-26T03:50:32+09:00",
+  "updated_at": "2021-07-26T23:21:17+09:00"
+},
+{
+  "resource_url": "http://wedata.net/items/85700",
+  "data": {
+    "insertBefore": "id('entry')/div[div[@class='pager']]",
+    "pageElement": "id('entry')/div[@class='block']",
+    "nextLink": "//div[@class='pager']//a[contains(span/text(), '次')]",
+    "url": "^https?://www\\.tokyo-np\\.co\\.jp/article/",
+    "exampleUrl": ""
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "htsign00",
+  "name": "東京新聞記事",
+  "created_at": "2021-07-23T08:42:27+09:00",
+  "updated_at": "2021-07-23T08:42:27+09:00"
+},
+{
+  "data": {
+    "insertBefore": "",
+    "pageElement": "//div[@class='comic-gallery']",
+    "nextLink": "//a[@id='gtm_comic_nextbtn']",
+    "url": "^https://toyokeizai\\.net/articles/comic/",
+    "exampleUrl": "https://toyokeizai.net/articles/comic/438912"
+  },
+  "created_by": "t_f_m_",
+  "name": "東洋経済オンライン 漫画",
+  "resource_url": "http://wedata.net/items/85699",
+  "created_at": "2021-07-15T16:45:39+09:00",
+  "updated_at": "2021-07-15T16:45:39+09:00",
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize"
+},
+{
+  "resource_url": "http://wedata.net/items/85696",
+  "data": {
+    "insertBefore": "",
+    "pageElement": "//div[@class=\"pagebreak-links\"]/preceding-sibling::*",
+    "nextLink": "//span[@aria-current]/following-sibling::a[1]",
+    "url": "^https://apple-geeks\\.com/",
+    "exampleUrl": "https://apple-geeks.com/iphone-selfy-2-2228"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "kenzou_ogawa",
+  "name": " Apple Geek LABO",
+  "created_at": "2021-07-09T21:32:54+09:00",
+  "updated_at": "2021-07-09T21:32:54+09:00"
+},
+{
   "resource_url": "http://wedata.net/items/85691",
   "data": {
     "pageElement": "//div[@class='wp']/*",
@@ -8511,17 +8571,17 @@
 },
 {
   "resource_url": "http://wedata.net/items/81725",
-  "name": "裁判所 裁判例情報",
-  "created_by": "t_f_m",
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-  "updated_at": "2018-04-23T21:52:43+09:00",
   "data": {
-    "exampleUrl": "http://www.courts.go.jp/app/hanrei_jp/list1?page=1&sort=1&filter%5Btext1%5D=%E9%81%95%E6%86%B2&filter%5Btext2%5D=%E6%86%B2%E6%B3%95\r\nhttp://www.courts.go.jp/app/hanrei_jp/list2?page=1&sort=1&filter%5Bhoutei1%5D=1",
-    "url": "^http://www\\.courts\\.go\\.jp/app/hanrei_jp/list\\d",
-    "pageElement": "id(\"list\")//tr",
-    "nextLink": "id(\"next_buttom\")//a[.=\"次へ→\"]"
+    "pageElement": "//tr[./th[@scope=\"row\"]]",
+    "nextLink": "//li[@class='p-second']/a",
+    "url": "^https://www\\.courts\\.go\\.jp/app/hanrei_jp/list\\d",
+    "exampleUrl": "http://www.courts.go.jp/app/hanrei_jp/list1?page=1&sort=1&filter%5Btext1%5D=%E9%81%95%E6%86%B2&filter%5Btext2%5D=%E6%86%B2%E6%B3%95\r\nhttp://www.courts.go.jp/app/hanrei_jp/list2?page=1&sort=1&filter%5Bhoutei1%5D=1"
   },
-  "created_at": "2018-04-23T21:45:45+09:00"
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "t_f_m",
+  "name": "裁判所 裁判例情報",
+  "created_at": "2018-04-23T21:45:45+09:00",
+  "updated_at": "2021-07-30T19:57:25+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/81722",
@@ -43598,17 +43658,17 @@
 },
 {
   "resource_url": "http://wedata.net/items/26955",
-  "name": "楽天市場 みんなのお買い物レビュー",
   "data": {
+    "pageElement": "//div[@class='revRvwUserSec']",
+    "nextLink": "//span[@class='revThisPage']/following-sibling::a[1]",
     "url": "^https://review\\.rakuten\\.co\\.jp/",
-    "pageElement": "//div[@class='revRvwUserSec hreview']",
-    "exampleUrl": "https://review.rakuten.co.jp/rd/2_207342_10000113_0/",
-    "nextLink": "//span[@class='revThisPage']/following-sibling::a[1]"
+    "exampleUrl": "https://review.rakuten.co.jp/rd/2_207342_10000113_0/"
   },
   "database_resource_url": "http://wedata.net/databases/AutoPagerize",
   "created_by": "RbUYkyC",
+  "name": "楽天市場 みんなのお買い物レビュー",
   "created_at": "2009-02-04T06:28:00+09:00",
-  "updated_at": "2020-04-09T05:01:13+09:00"
+  "updated_at": "2021-07-24T12:13:12+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/26914",
@@ -48303,17 +48363,17 @@
 },
 {
   "resource_url": "http://wedata.net/items/760",
-  "name": "魔法のiらんど",
   "data": {
-    "url": "^https://s\\.maho\\.jp/book/",
-    "pageElement": "id('book-main')/*[@class='ttl-secondary' or @class='inner row']",
-    "exampleUrl": "https://s.maho.jp/book/f239a0hab7b99ae3/5914937013/1/",
-    "nextLink": "//li[@class='next']/a"
+    "pageElement": "//li[@class=\"WorkListCell\"]",
+    "nextLink": "//div[contains(@class,\"next\")]/a",
+    "url": "^https://maho\\.jp/",
+    "exampleUrl": "https://maho.jp/rankings/all/daily https://maho.jp/search"
   },
   "database_resource_url": "http://wedata.net/databases/AutoPagerize",
   "created_by": "swdyh",
+  "name": "魔法のiらんど",
   "created_at": "2008-04-16T12:36:53+09:00",
-  "updated_at": "2020-03-27T12:46:47+09:00"
+  "updated_at": "2021-07-26T11:50:39+09:00"
 },
 {
   "name": "発言小町",
