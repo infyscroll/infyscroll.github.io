@@ -1,5 +1,148 @@
 [
 {
+  "resource_url": "http://wedata.net/items/85719",
+  "data": {
+    "pageElement": "//li[.//time]",
+    "nextLink": "//li[number(./text())>0]/following-sibling::li[1]/a",
+    "url": "^https://xtech\\.nikkei\\.com/",
+    "exampleUrl": "https://xtech.nikkei.com/news/index.html https://xtech.nikkei.com/it/pc/article/column/20101112/1028503/"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "t_f_m_",
+  "name": "日経クロステック 記事一覧",
+  "created_at": "2021-09-25T01:08:42+09:00",
+  "updated_at": "2021-09-25T10:54:00+09:00"
+},
+{
+  "resource_url": "http://wedata.net/items/85718",
+  "data": {
+    "insertBefore": "",
+    "pageElement": "//div[@class='post-contents']",
+    "nextLink": "//div[contains(concat(' ',@class,' '),' next ')]/a[span]",
+    "url": "^https://nlab\\.itmedia\\.co\\.jp/research/articles/",
+    "exampleUrl": "https://nlab.itmedia.co.jp/research/articles/377205/2"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "t_f_m_",
+  "name": "ねとらぼ調査隊",
+  "created_at": "2021-09-24T21:39:02+09:00",
+  "updated_at": "2021-09-24T21:39:02+09:00"
+},
+{
+  "resource_url": "http://wedata.net/items/85717",
+  "data": {
+    "pageElement": "//li[.//time]",
+    "nextLink": "//link[@rel=\"next\"]",
+    "url": "^https://news\\.denfaminicogamer\\.jp/",
+    "exampleUrl": "https://news.denfaminicogamer.jp/category/interview\r\nhttps://news.denfaminicogamer.jp/tag/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3/page/2\r\n"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "t_f_m_",
+  "name": "電ファミニコゲーマー  記事一覧",
+  "created_at": "2021-09-24T15:25:43+09:00",
+  "updated_at": "2021-09-25T15:04:06+09:00"
+},
+{
+  "resource_url": "http://wedata.net/items/85715",
+  "data": {
+    "pageElement": "//div[@class='module-article-body']",
+    "nextLink": "id(\"next_button\")",
+    "url": "^https://maidonanews\\.jp/article/",
+    "exampleUrl": "https://maidonanews.jp/article/14437707"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "t_f_m_",
+  "name": "まいどなニュース",
+  "created_at": "2021-09-21T23:26:37+09:00",
+  "updated_at": "2021-09-22T15:32:12+09:00"
+},
+{
+  "data": {
+    "pageElement": "//dl[.//h3]",
+    "nextLink": "//link[@rel='next']",
+    "url": "^https?://badui\\.org/",
+    "exampleUrl": "http://badui.org/page/2 http://badui.org/"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "t_f_m_",
+  "resource_url": "http://wedata.net/items/85714",
+  "name": "楽しいBAD UIの世界",
+  "created_at": "2021-09-17T23:41:42+09:00",
+  "updated_at": "2021-09-18T09:55:42+09:00"
+},
+{
+  "data": {
+    "pageElement": "//div[@class=\"content\"]/img|//div[@class=\"hezi\"][not(//div[@class=\"content\"])]//li",
+    "nextLink": "(//a[@class=\"current\"]|id(\"pages\")/span)/following-sibling::a[1]",
+    "url": "^https://(www\\.)?tujigu\\.net/",
+    "exampleUrl": "https://www.tujigu.net/s/187/ https://www.tujigu.net/a/37104/"
+  },
+  "created_by": "loveveryday",
+  "name": "图集谷",
+  "resource_url": "http://wedata.net/items/85713",
+  "created_at": "2021-09-11T19:12:51+09:00",
+  "updated_at": "2021-09-11T19:13:35+09:00",
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize"
+},
+{
+  "resource_url": "http://wedata.net/items/85712",
+  "data": {
+    "pageElement": "id('maincontent')//ol",
+    "nextLink": "//div[@class='c-pagination']//li[not(./*)]/following-sibling::li/a",
+    "url": "^https://store-jp\\.nintendo\\.com/list/",
+    "exampleUrl": "https://store-jp.nintendo.com/list/software/?prefn1=isSale&prefv1=true&prefn2=softType&prefv2=TITLE&srule=discountRate-high-to-low&start=6&sz=20\r\nhttps://store-jp.nintendo.com/list/tag/0007/"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "t_f_m'",
+  "name": "My Nintendo Store",
+  "created_at": "2021-09-11T12:54:48+09:00",
+  "updated_at": "2021-09-11T16:45:02+09:00"
+},
+{
+  "resource_url": "http://wedata.net/items/85707",
+  "data": {
+    "pageElement": "//body/div[@class=\"container\"][1]",
+    "nextLink": "//ul[@class=\"pagination-list\"]//a[not(contains(@class, \"is-inverted\"))]/parent::node()//following-sibling::li[1]/a|//ul[@class=\"pagination-list\"]//a[not(contains(@class, \"is-inverted\"))]/following-sibling::a[1]",
+    "url": "^https://ffjav\\.com/"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "mechchorogi",
+  "name": "ffjav",
+  "created_at": "2021-08-28T21:10:12+09:00",
+  "updated_at": "2021-08-28T23:51:44+09:00"
+},
+{
+  "resource_url": "http://wedata.net/items/85706",
+  "data": {
+    "insertBefore": "",
+    "pageElement": "//ul[\r\n@class\r\n='package-list']/li",
+    "nextLink": "//a[\r\n@rel\r\n='next']",
+    "url": "^https://[^/]+\\.joyhentai\\.com/",
+    "exampleUrl": "https://ja.joyhentai.com/tag/big-breasts/"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "unknown11",
+  "name": "joyhentai",
+  "created_at": "2021-08-16T03:19:33+09:00",
+  "updated_at": "2021-08-16T03:19:33+09:00"
+},
+{
+  "resource_url": "http://wedata.net/items/85705",
+  "data": {
+    "insertBefore": "",
+    "pageElement": "id(\"foot\")//small",
+    "comment": "This is a dummy code for uAutoPagerize. Without this you will get a read error.",
+    "nextLink": "//a[@class=\"logo\"]",
+    "url": "^https://aikru.com/archives/",
+    "exampleUrl": "https://aikru.com/archives/2011"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "kenzou_ogawa",
+  "name": "AIKRU[アイクル]",
+  "created_at": "2021-08-09T07:15:54+09:00",
+  "updated_at": "2021-08-09T07:15:54+09:00"
+},
+{
   "resource_url": "http://wedata.net/items/85702",
   "data": {
     "pageElement": "//main[contains(@class,\"main\")]/div[contains(@class,\"WorkLayout\")]",
@@ -732,21 +875,6 @@
   "name": "ウートピ (記事)",
   "created_at": "2020-12-22T18:39:49+09:00",
   "updated_at": "2020-12-22T18:39:49+09:00"
-},
-{
-  "resource_url": "http://wedata.net/items/85590",
-  "data": {
-    "pageElement": "//p[@class=\"NA_footer_copyright\"]",
-    "comment": "This is a dummy code for uAutoPagerize.",
-    "nextLink": "descendant::li[last()]/a[//li[@class=\"GAE_back\"]/following-sibling::li[1][not(.//a)]]",
-    "url": "^https://natalie\\.mu/.+/gallery/news/",
-    "exampleUrl": "https://natalie.mu/comic/gallery/news/407671/media/56831 \r\nhttps://natalie.mu/music/gallery/news/407695/1496751\r\nhttps://natalie.mu/owarai/gallery/news/407820/1497467"
-  },
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-  "created_by": "kenzou_ogawa",
-  "name": "ナタリー - 画像 ニュース ダミー",
-  "created_at": "2020-12-08T08:45:52+09:00",
-  "updated_at": "2020-12-08T08:46:14+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/85588",
@@ -4101,17 +4229,18 @@
 },
 {
   "resource_url": "http://wedata.net/items/85222",
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-  "created_at": "2020-02-14T10:20:22+09:00",
   "data": {
-    "pageElement": "//div[@class=\"articleBody p-article_body\"]|//article//li[contains(@class,\"p-articleList_item\")]",
-    "exampleUrl": "https://xtech.nikkei.com/atcl/nxt/column/18/00682/021200027/ https://xtech.nikkei.com/it/pc/article/column/20101112/1028503/ https://xtech.nikkei.com/news/index.html",
-    "url": "^https://xtech\\.nikkei\\.com/",
-    "nextLink": "//ul[@class='p-pagenation_list']//li[@class='p-pagenation_list_item -next']/a"
+    "pageElement": "//div[@class=\"articleBody p-article_body\"]",
+    "comment": "url must be longer than url of 85719",
+    "nextLink": "//li[number(./text())>0]/following-sibling::li[1]/a",
+    "url": "^https://xtech\\.nikkei\\.com/.",
+    "exampleUrl": "https://xtech.nikkei.com/atcl/nxt/column/18/00682/021200027/"
   },
-  "updated_at": "2020-05-21T10:24:42+09:00",
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "nnnn",
   "name": "日経クロステック",
-  "created_by": "nnnn"
+  "created_at": "2020-02-14T10:20:22+09:00",
+  "updated_at": "2021-09-25T10:53:00+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/85207",
@@ -6535,18 +6664,18 @@
 },
 {
   "resource_url": "http://wedata.net/items/82078",
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-  "created_at": "2019-02-14T00:12:58+09:00",
   "data": {
-    "pageElement": "id(\"googleAd_inread\")/preceding-sibling::*[not(@class=\"ctrl\" or @id=\"ul_comment\")]|id(\"ul_comment\")[./div/*]",
+    "pageElement": "id('start cmsCopyright')/preceding-sibling::*",
     "comment": "#end is not unique id",
-    "exampleUrl": "https://nlab.itmedia.co.jp/nl/articles/1404/25/news017.html\r\nhttps://nlab.itmedia.co.jp/nl/articles/1902/13/news123.html\r\nhttps://nlab.itmedia.co.jp/nl/articles/1902/23/news004.html\r\nhttps://nlab.itmedia.co.jp/nl/articles/2004/23/news005_2.html",
-    "url": "^https?://nlab\\.itmedia\\.co\\.jp/nl/articles/\\d+/\\d+/news\\d+(_\\d\\.html|\\.html)",
-    "nextLink": "id(\"next\")/a"
+    "nextLink": "id(\"next\")/a",
+    "url": "^https?://nlab\\.itmedia\\.co\\.jp/nl/articles/",
+    "exampleUrl": "https://nlab.itmedia.co.jp/nl/articles/1404/25/news017.html\r\nhttps://nlab.itmedia.co.jp/nl/articles/1902/13/news123.html\r\nhttps://nlab.itmedia.co.jp/nl/articles/1902/23/news004.html\r\nhttps://nlab.itmedia.co.jp/nl/articles/2004/23/news005_2.html\r\n"
   },
-  "updated_at": "2020-04-27T08:45:00+09:00",
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "t_f_m",
   "name": "ねとらぼ",
-  "created_by": "t_f_m"
+  "created_at": "2019-02-14T00:12:58+09:00",
+  "updated_at": "2021-09-24T21:55:10+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/82077",
@@ -14862,17 +14991,17 @@
 },
 {
   "resource_url": "http://wedata.net/items/77724",
-  "name": "YOMIURI ONLINE=",
-  "created_by": "ofk",
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-  "updated_at": "2019-02-05T10:22:37+09:00",
   "data": {
-    "exampleUrl": "https://www.yomiuri.co.jp/fukayomi/20190204-OYT8T50085/",
+    "pageElement": "//div[@class=\"article-pagination\"]/preceding-sibling::*|//div[@class=\"p-article-wp-pager\"][not(//div[@class=\"article-pagination\"])]/preceding-sibling::*",
+    "nextLink": "//div[@class=\"next\"]/a|//div[@class=\"p-article-wp-pager\"]/p/following-sibling::a[1]",
     "url": "^https://www\\.yomiuri\\.co\\.jp/",
-    "pageElement": "//div[@class=\"article-pagination\"]/preceding-sibling::*|//aside[@class=\"ev-article-manual-related list-article-inline\"][not(//div[@class=\"article-pagination\"])]/preceding-sibling::*",
-    "nextLink": "//div[@class=\"next\"]/a"
+    "exampleUrl": "https://www.yomiuri.co.jp/fukayomi/20190204-OYT8T50085/\r\nhttps://www.yomiuri.co.jp/economy/20210926-OYT1T50112/"
   },
-  "created_at": "2015-12-17T12:29:58+09:00"
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "ofk",
+  "name": "YOMIURI ONLINE=",
+  "created_at": "2015-12-17T12:29:58+09:00",
+  "updated_at": "2021-09-27T17:34:45+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/77721",
@@ -20301,18 +20430,18 @@
   "created_by": "lcou1"
 },
 {
+  "resource_url": "http://wedata.net/items/76399",
   "data": {
-    "pageElement": "//article/div[@class='fontMiddiumText'] | id('primary')/article/*[not(self::h1)] | //section[@class='indexText clearfix']/ul/li | //div[@class='post_content']/p[not(@class)] | //div[@class='post_img']",
-    "nextLink": "//a[@class='pageNext' or @class='photo_next'] | //link[@rel='next']",
+    "pageElement": "descendant::article[1]/div[./p]",
+    "nextLink": "//link[@rel='next']",
     "url": "^https?://www\\.sankei\\.com/",
-    "exampleUrl": "https://www.sankei.com/premium/news/141004/prm1410040002-n1.html\r\nhttps://www.sankei.com/premium/photos/141004/prm1410040002-p1.html\r\nhttps://www.sankei.com/premium/news/181015/prm1810150007-n1.html\r\nhttps://www.sankei.com/west/photos/200924/wst2009240001-p1.html"
+    "exampleUrl": "https://www.sankei.com/premium/news/141004/prm1410040002-n1.html\r\nhttps://www.sankei.com/premium/news/181015/prm1810150007-n1.html"
   },
   "database_resource_url": "http://wedata.net/databases/AutoPagerize",
   "created_by": "lcou1",
-  "resource_url": "http://wedata.net/items/76399",
   "name": "産経ニュース",
   "created_at": "2014-10-04T12:10:44+09:00",
-  "updated_at": "2020-09-24T17:52:39+09:00"
+  "updated_at": "2021-08-05T09:37:20+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/76398",
@@ -22128,17 +22257,17 @@
 },
 {
   "resource_url": "http://wedata.net/items/74897",
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-  "created_at": "2014-06-13T17:32:13+09:00",
   "data": {
-    "pageElement": "//nav[@class='articlePager']/preceding-sibling::node()[not(@class='MarginT10')]|//li[@class='listAtcl']",
-    "exampleUrl": "https://dot.asahi.com/aera/2017091100078.html?page=1\r\nhttps://dot.asahi.com/dot/photoarticle/2019060500079.html?page=1\r\nhttps://dot.asahi.com/ent/",
+    "pageElement": "//*[@class='p-article-aera']/node()[not(self::div)]",
+    "nextLink": "//*[@class=\"c-button--pagination\"]/*[@class=\"-active-\"]/following-sibling::a",
     "url": "^https?://dot\\.asahi\\.com/",
-    "nextLink": "//li[@class=\"articlePagerNext\" or @class=\"longR\"]/a"
+    "exampleUrl": "https://dot.asahi.com/aera/2017091100078.html?page=1\r\nhttps://dot.asahi.com/dot/photoarticle/2019060500079.html?page=1"
   },
-  "updated_at": "2020-05-29T10:58:23+09:00",
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "t_f_m",
   "name": "dot asahi",
-  "created_by": "t_f_m"
+  "created_at": "2014-06-13T17:32:13+09:00",
+  "updated_at": "2021-09-22T15:14:41+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/74895",
@@ -25224,17 +25353,17 @@
 },
 {
   "resource_url": "http://wedata.net/items/66481",
-  "name": "日刊SPA 記事",
-  "created_by": "macaw",
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-  "updated_at": "2018-08-18T16:41:05+09:00",
   "data": {
-    "exampleUrl": "https://nikkan-spa.jp/1082964\r\nhttps://nikkan-spa.jp/1104565\r\nhttps://nikkan-spa.jp/1496766",
+    "pageElement": "//div[@class=\"post-div Horizontal\"]|//div[@class=\"post-container\"]/div[1]/node()",
+    "nextLink": "//a[./div[@class=\"next-page\"]]|//span[contains(@class,\"current\")]/following-sibling::a",
     "url": "^https://nikkan-spa\\.jp/",
-    "pageElement": "//div[@class=\"post-container\"]/div[1]/node()",
-    "nextLink": "//a[./div[@class=\"next-page\"]]"
+    "exampleUrl": "https://nikkan-spa.jp/1082964\r\nhttps://nikkan-spa.jp/1104565\r\nhttps://nikkan-spa.jp/1496766\r\nhttps://nikkan-spa.jp/1588286\r\nhttps://nikkan-spa.jp/page/2"
   },
-  "created_at": "2013-02-03T19:03:30+09:00"
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "macaw",
+  "name": "日刊SPA",
+  "created_at": "2013-02-03T19:03:30+09:00",
+  "updated_at": "2021-08-06T07:12:57+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/66475",
@@ -41602,14 +41731,14 @@
   "data": {
     "pageElement": "id(\"js-bukkenList\")/*",
     "nextLink": "//li[@class='pagination-current']/following-sibling::li[a][1]/a\r\n|//link[@rel='next']",
-    "url": "^https://suumo\\.jp/.+?/ichiran/.+",
-    "exampleUrl": "https://suumo.jp/jj/chintai/ichiran/FR301FC001/?ar=060&bs=040&ra=027&cb=0.0&ct=9999999&et=9999999&mb=0&mt=9999999&cn=9999999&shkr1=03&shkr2=03&shkr3=03&shkr4=03&fw2=&ek=241505680&rn=2415&page=2\r\nhttps://suumo.jp/jj/bukken/ichiran/JJ010FJ001/?ra=030013&bs=010&firstFlg=0&urlFlg=0&jspIdFlg=2&rn=0005&ekNm=駅名を入力&kb=1&kt=9999999&mb=0&mt=9999999&ar=030&ekTjCd=&ekTjNm=&tj=0\r\nhttps://suumo.jp/jj/bukken/ichiran/JJ010FJ001/?ar=030&bs=011&ta=08&jspIdFlg=patternShikugun&sc=08201&kb=1&kt=9999999&mb=0&mt=9999999&ekTjCd=&ekTjNm=&tj=0&cnb=0&cn=9999999&srch_navi=1"
+    "url": "^https://suumo\\.jp/",
+    "exampleUrl": "https://suumo.jp/jj/chintai/ichiran/FR301FC001/?ar=060&bs=040&ra=027&cb=0.0&ct=9999999&et=9999999&mb=0&mt=9999999&cn=9999999&shkr1=03&shkr2=03&shkr3=03&shkr4=03&fw2=&ek=241505680&rn=2415&page=2\r\nhttps://suumo.jp/jj/bukken/ichiran/JJ010FJ001/?ra=030013&bs=010&firstFlg=0&urlFlg=0&jspIdFlg=2&rn=0005&ekNm=%E9%A7%85%E5%90%8D%E3%82%92%E5%85%A5%E5%8A%9B&kb=1&kt=9999999&mb=0&mt=9999999&ar=030&ekTjCd=&ekTjNm=&tj=0\r\nhttps://suumo.jp/jj/bukken/ichiran/JJ010FJ001/?ar=030&bs=011&ta=08&jspIdFlg=patternShikugun&sc=08201&kb=1&kt=9999999&mb=0&mt=9999999&ekTjCd=&ekTjNm=&tj=0&cnb=0&cn=9999999&srch_navi=1\r\nhttps://suumo.jp/chintai/tokyo/ek_19120/"
   },
   "database_resource_url": "http://wedata.net/databases/AutoPagerize",
   "created_by": "cuzic",
   "name": "SUUMO",
   "created_at": "2009-08-02T14:03:10+09:00",
-  "updated_at": "2020-07-02T20:52:17+09:00"
+  "updated_at": "2021-08-16T22:01:20+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/29457",
