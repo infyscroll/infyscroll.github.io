@@ -1,1 +1,15 @@
-[]
+[
+{
+  "action": "button",
+  "append": "ajax",
+  "buttonDetection": "auto",
+  "buttonRule": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
+  "buttonType": "xpath",
+  "id": 1,
+  "pageElementRule": "id('root')/div[2]/div/div/div/div/section/div/ul/*",
+  "pageElementType": "xpath",
+  "removeElement": "//li[@class='sc-l7cibp-2 gpVAva'][./div[@class='sc-rp5asc-0 fxGVAF']]",
+  "type": "regex",
+  "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(illustrations|manga)"
+}
+]
