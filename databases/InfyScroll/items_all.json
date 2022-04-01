@@ -9,7 +9,36 @@
   "pageElementRule": "id('root')/div[2]/div/div/div/div/section/div/ul/*",
   "pageElementType": "xpath",
   "removeElement": "//li[@class='sc-l7cibp-2 gpVAva'][./div[@class='sc-rp5asc-0 fxGVAF']]",
+  "title": "Pixiv - Illustrations and Manga",
   "type": "regex",
   "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(illustrations|manga)"
+},
+{
+  "action": "button",
+  "append": "ajax",
+  "buttonDetection": "auto",
+  "buttonRule": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
+  "buttonType": "xpath",
+  "id": 2,
+  "pageElementRule": "//div[@class='sc-9y4be5-0 gTaKEp']",
+  "pageElementType": "xpath",
+  "removeElement": "//div[@class=\"sc-1dcltmz-0 iRWVTq\"]",
+  "title": "Pixiv - Novels",
+  "type": "regex",
+  "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(novels)"
+},
+{
+  "action": "button",
+  "append": "ajax",
+  "buttonDetection": "auto",
+  "buttonRule": "//mer-button[@data-testid='pagination-next-button']",
+  "buttonType": "xpath",
+  "id": 3,
+  "pageElementRule": "//section[./div[@id='item-grid']]",
+  "pageElementType": "xpath",
+  "removeElement": "//section[./ul[@data-testid='item-grid-skeleton']]",
+  "title": "Mercari JP - Search",
+  "type": "regex",
+  "url": "https://jp\\.mercari\\.com/search\\?"
 }
 ]
