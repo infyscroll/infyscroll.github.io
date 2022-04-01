@@ -1,5 +1,48 @@
 [
 {
+  "resource_url": "http://wedata.net/items/85892",
+  "data": {
+    "pageElement": "//figure/a",
+    "nextLink": "//li[@class='item paging-next']/a",
+    "url": "^https://www\\.gamespark\\.jp/article/img/(this_string_is_required_to_exceed_70183)?",
+    "exampleUrl": "https://www.gamespark.jp/article/img/2022/02/23/116277/555465.html"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "Griever3",
+  "name": "写真・画像 | Game*Spark - 国内・海外ゲーム情報サイト",
+  "created_at": "2022-03-24T18:43:30+09:00",
+  "updated_at": "2022-03-24T19:01:14+09:00"
+},
+{
+  "resource_url": "http://wedata.net/items/85889",
+  "data": {
+    "pageElement": "//div[@class='video-item-slide']|id('votelist')/li",
+    "nextLink": "id('navigationLinks')[count(a)>1 or a/@href='https://recordsetter.com/list/editors-picks/2']/a[last()]|//*[@class='next' or @rel='next']",
+    "url": "^https://recordsetter\\.com/.",
+    "exampleUrl": "https://recordsetter.com/list/editors-picks/ https://recordsetter.com/new-world-records/2 https://recordsetter.com/pets-and-animals-world-records"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "Tanookirby3",
+  "name": "RecordSetter: The Home of World Records",
+  "created_at": "2022-03-19T09:35:58+09:00",
+  "updated_at": "2022-03-19T10:27:54+09:00"
+},
+{
+  "resource_url": "http://wedata.net/items/85888",
+  "data": {
+    "insertBefore": "",
+    "pageElement": "//figure[@class=\"photo__block\"] | //ul[@class=\"articleslist\"]/li",
+    "nextLink": "//div[@class=\"photo__next\" or @class=\"pager__next\"]/a",
+    "url": "^https?://kahoku\\.news/",
+    "exampleUrl": "https://kahoku.news/articles/20220317khn000021.html?format=slide&page=1\r\nhttps://kahoku.news/tag/%E7%A4%BE%E4%BC%9A"
+  },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "brib2",
+  "name": "河北新報オンラインニュース",
+  "created_at": "2022-03-17T11:57:15+09:00",
+  "updated_at": "2022-03-17T11:57:15+09:00"
+},
+{
   "resource_url": "http://wedata.net/items/85884",
   "data": {
     "pageElement": "//div[@class=\"alignItem_05\"]/div[@class=\"gl_Item\"]",
@@ -11951,17 +11994,17 @@
 },
 {
   "resource_url": "http://wedata.net/items/81372",
-  "name": "curseforge",
-  "created_by": "Narju",
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-  "updated_at": "2017-05-12T08:32:51+09:00",
   "data": {
-    "exampleUrl": "https://minecraft.curseforge.com/mc-mods, https://dev.bukkit.org/bukkit-plugins, https://www.wowace.com/addons, https://www.sc2mapster.com/assets, https://www.skyrimforge.com/mods",
-    "url": "^https?://[^.]+\\.(?:curseforge|feed-the-beast|wowace|sc2mapster|skyrimforge|bukkit)\\.(?:com|org)/",
-    "pageElement": "//div[contains(@class, 'project-listing')]/div[@class='listing-body']/ul/li[@class='project-list-item']",
-    "nextLink": "//div[contains(@class, 'project-listing')]/div[@class='listing-footer']/div[contains(@class, 'b-pagination')]/ul/li/a[@rel='next']"
+    "pageElement": "//div[@class='my-2']|//li[.//abbr or @class='idea']",
+    "nextLink": "//a[@rel='next']|//span[contains(@class,'active')]/following-sibling::a[1]",
+    "url": "^https?://[^.]+\\.(?:curseforge(-ideas\\.overwolf)?|feed-the-beast|wowace|sc2mapster|skyrimforge|bukkit)\\.(?:com|org)/",
+    "exampleUrl": "https://www.curseforge.com/minecraft/mc-mods, https://curseforge-ideas.overwolf.com/, https://dev.bukkit.org/bukkit-plugins, https://www.wowace.com/addons, https://www.sc2mapster.com/assets, https://www.curseforge.com/skyrim/mods, https://www.curseforge.com/minecraft/modpacks/better-minecraft-modpack-new/relations/dependencies?page=4"
   },
-  "created_at": "2017-05-12T08:32:51+09:00"
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "Narju",
+  "name": "curseforge",
+  "created_at": "2017-05-12T08:32:51+09:00",
+  "updated_at": "2022-03-27T08:54:17+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/81371",
@@ -23838,8 +23881,8 @@
 {
   "resource_url": "http://wedata.net/items/74818",
   "data": {
-    "pageElement": "//p[@class=\"full-text\"]|//div[contains(concat(\" \",@class,\" \"),\" article-wrap \")]//li[@class=\"article-box\"]",
-    "nextLink": "//main/div[@class=\"paging-box\"]/p[@class=\"page-next\"]/a",
+    "pageElement": "descendant::div[contains(@class,'article-wrap')][1]//*[@class='full-text' or @class='article-box']",
+    "nextLink": "//p[@class=\"page-next\"]/a",
     "url": "^https?://(www\\.)?nikkan-gendai\\.com/articles/",
     "exampleUrl": "http://www.nikkan-gendai.com/articles/view/geino/140476 http://www.nikkan-gendai.com/articles/view/sports/157400 http://www.nikkan-gendai.com/articles/columns/news http://www.nikkan-gendai.com/articles/index/news/category:1\r\nhttps://www.nikkan-gendai.com/articles/columns/2648"
   },
@@ -23847,7 +23890,7 @@
   "created_by": "terepandasan",
   "name": "日刊ゲンダイ",
   "created_at": "2014-05-06T09:40:49+09:00",
-  "updated_at": "2020-11-03T17:52:11+09:00"
+  "updated_at": "2022-03-31T17:21:12+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/74815",
@@ -24232,18 +24275,17 @@
 },
 {
   "resource_url": "http://wedata.net/items/74712",
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-  "name": "Jim Hill Media",
   "data": {
     "pageElement": "//ul[starts-with(@class,'content-list')]",
     "nextLink": "//a[@class='selected']/following-sibling::a[1]",
-    "exampleUrl": "http://jimhillmedia.com/p/articlelist.aspx\r\nhttp://jimhillmedia.com/tags/movies/default.aspx",
-    "url": "^http://jimhillmedia\\.com/",
-    "insertBefore": ""
+    "url": "^https?://jimhillmedia\\.com/",
+    "exampleUrl": "http://jimhillmedia.com/p/articlelist.aspx\r\nhttp://jimhillmedia.com/tags/movies/default.aspx"
   },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
   "created_by": "Tanookirby",
+  "name": "Jim Hill Media",
   "created_at": "2014-04-11T03:28:16+09:00",
-  "updated_at": "2014-04-11T03:28:16+09:00"
+  "updated_at": "2022-04-01T07:37:59+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/74711",
@@ -29630,19 +29672,19 @@
   "created_by": "plais"
 },
 {
+  "resource_url": "http://wedata.net/items/63182",
   "data": {
     "pageElement": "//div[@class='box clearfix']",
     "comment": "//a[@class='next'] means the last.",
-    "nextLink": "id('pager')/span[not(contains(@class,'disable'))]/following-sibling::a",
+    "nextLink": "id('pager')/span[number(./text())>0]/following-sibling::a",
     "url": "^https?://((kc|www)\\.)?kodansha\\.co\\.jp/(?:search|title)",
     "exampleUrl": "https://kc.kodansha.co.jp/search?page=3296&_general%5B0%5D=nop&_ft=&_sw=&_book_series=&_magazine=&_comic_series=\r\nhttps://kc.kodansha.co.jp/title?page=1&code=1000005407"
   },
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
   "created_by": "plais",
   "name": "講談社",
   "created_at": "2012-09-08T18:41:19+09:00",
-  "updated_at": "2022-03-15T21:23:29+09:00",
-  "resource_url": "http://wedata.net/items/63182",
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize"
+  "updated_at": "2022-03-16T12:15:28+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/63180",
@@ -32169,9 +32211,9 @@
 {
   "resource_url": "http://wedata.net/items/55875",
   "data": {
-    "pageElement": "//a[@class=\"logo\"]",
+    "pageElement": "descendant::li[./a[@href='/jobnavi/']][1]",
     "comment": "This is a dummy code for 1645.",
-    "nextLink": "//ul[@class=\"link-basic\"]/li[last()]/a",
+    "nextLink": "//a[@class='logo']",
     "url": "^https?://eiga\\.com/news/\\d{8}/\\d{1,2}/",
     "exampleUrl": "http://eiga.com/news/20111119/5/\r\nhttp://eiga.com/news/20111119/2/"
   },
@@ -32179,7 +32221,7 @@
   "created_by": "t_f_m",
   "name": "eiga.com news",
   "created_at": "2011-11-20T17:18:26+09:00",
-  "updated_at": "2021-12-16T11:06:14+09:00"
+  "updated_at": "2022-03-31T17:38:41+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/55866",
@@ -32352,18 +32394,18 @@
   "created_at": "2011-11-07T03:36:59+09:00"
 },
 {
-  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-  "created_at": "2011-11-04T06:37:21+09:00",
   "resource_url": "http://wedata.net/items/55777",
   "data": {
     "pageElement": "id('left')/article",
-    "exampleUrl": "https://matunnkazumi.blog.fc2.com/",
+    "nextLink": "id('left')//a[.='次のページ']",
     "url": "^https://[^.]+\\.blog[^.]*\\.fc2\\.com/",
-    "nextLink": "//nav[count(./a)>1 or ./a [@href=\"https://matunnkazumi.blog.fc2.com/page-1.html\"]]/a[last()]"
+    "exampleUrl": "https://matunnkazumi.blog.fc2.com/ https://itpc.blog.fc2.com/"
   },
-  "updated_at": "2020-05-18T09:40:45+09:00",
+  "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+  "created_by": "t_f_m",
   "name": "FC2 BLOG スマートフォン用",
-  "created_by": "t_f_m"
+  "created_at": "2011-11-04T06:37:21+09:00",
+  "updated_at": "2022-03-24T18:46:54+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/55775",
@@ -50702,9 +50744,10 @@
 {
   "resource_url": "http://wedata.net/items/472",
   "data": {
-    "pageElement": "id('rso')/*[not(@class='hlcw0c')]|id('center_col')/style[contains(.,'relative')]",
+    "pageElement": "id('rso')",
     "comment": "Google Custom Search Result: http://wedata.net/items/60908\r\nGoogle Movies: http://wedata.net/items/58112\r\nGoogle Shopping: http://wedata.net/items/38952\r\nGoogle Custom Search Result: http://wedata.net/items/60908",
     "Stylish": "/* Displays images when using search preview extension. Example:https://www.google.com/search?q=food&num=20&source=lnms&tbm=nws&sa=X&ved=0ahUKEwjalvHv0OHWAhXD2SYKHSRwBqUQ_AUIDCgD */ @-moz-document domain(\"google.com\") { div.bkWMgd > div > div > a > img{ display: inline-block !important; }}",
+    "comment2": "If pageElement is specified by id ('rso')/*, the design will be affected. ",
     "nextLink": "id('pnnext')|id('navbar navcnt nav')//td[span]/following-sibling::td[1]/a|id('nn')/parent::a",
     "url": "^https?://[^./]+\\.google(?:\\.[^./]{2,3}){1,2}/(?:c(?:se|ustom)|search|webhp|m|#)",
     "exampleUrl": "http://www.google.com/search?q=AutoPagerize\r\nhttp://www.google.co.jp/custom?q=firefox\r\nhttps://www.google.com/search?q=bucket&tbm=pts\r\nhttps://www.google.com/search?q=autopagerize&client=firefox-b-1-d&source=lnms&tbm=nws&sa=X&ved=0ahUKEwjImsSLhq7jAhVUa80KHbVfDPMQ_AUIECgB&biw=1536&bih=728\r\nhttps://www.google.com/search?q=upfronts&client=firefox-b-1-d&source=lnms&tbm=nws&sa=X&ved=2ahUKEwi_3Y22pdLwAhWDKVkFHWOHB_MQ_AUoAXoECAEQAw&biw=1536&bih=722\r\nhttps://www.google.com/search?q=T20+World+Cup\r\nhttps://www.google.com/search?q=super+robot+wars"
@@ -50713,7 +50756,7 @@
   "created_by": "swdyh",
   "name": "Google Search",
   "created_at": "2008-04-16T12:35:37+09:00",
-  "updated_at": "2022-03-13T06:50:15+09:00"
+  "updated_at": "2022-04-01T07:52:32+09:00"
 },
 {
   "name": "Getchu.com \u8a73\u7d30\u691c\u7d22",
@@ -50926,18 +50969,18 @@
   "updated_at": "2014-09-10T19:16:16+09:00"
 },
 {
+  "resource_url": "http://wedata.net/items/418",
   "data": {
-    "pageElement": "id(\"searchWidget\")|//img[@class=\"s-image\"]/ancestor::div[@data-index][last()]",
-    "nextLink": "//span[@aria-current]/following-sibling::a[1]|//li[./a[@aria-current]]/following-sibling::li[1]/a",
+    "pageElement": "id('searchWidget')/*[following-sibling::hr[last()-1]]|//img[@class='s-image']/ancestor::div[@data-index][last()]",
+    "nextLink": "//a[contains(@class,'s-pagination-next')]|//li[./a[@aria-current]]/following-sibling::li[1]/a",
     "url": "^https?://(www\\.)?amazon\\.(?:c(?:a|n|o(?:m|\\.(?:jp|uk)))|de|fr)/(?:[^/]+/)?(?:[bes]|(?:gp|exec/obidos)/(search|aag)|entity/author)?",
     "exampleUrl": "http://www.amazon.co.jp/s/?field-keywords=windows\r\nhttp://www.amazon.co.jp/s/?url=search-alias%3Dtoys&field-keywords=lego\r\nhttp://www.amazon.co.jp/exec/obidos/search-handle-url?_encoding=UTF8&search-type=ss&index=books-jp&field-author=%E6%9D%91%E4%B8%8A%20%E6%98%A5%E6%A8%B9\r\nhttp://www.amazon.co.jp/%E6%A9%99%E4%B9%83-%E3%81%BE%E3%81%BE%E3%82%8C/e/B006AIETUI/\r\nhttps://www.amazon.co.jp/kindle-dbs/entity/author/B00J1JKSOY?_encoding=UTF8&offset=0&pageSize=12&searchAlias=stripbooks&sort=author-pages-popularity-rank&page=4&langFilter=default#formatSelectorHeader"
   },
   "database_resource_url": "http://wedata.net/databases/AutoPagerize",
   "created_by": "swdyh",
-  "resource_url": "http://wedata.net/items/418",
   "name": "Amazon 検索結果",
   "created_at": "2008-04-16T12:35:23+09:00",
-  "updated_at": "2021-12-22T11:37:50+09:00"
+  "updated_at": "2022-04-01T09:06:57+09:00"
 },
 {
   "resource_url": "http://wedata.net/items/414",
