@@ -8,7 +8,7 @@
   "id": 1,
   "pageElementPath": "id('root')/div[2]/div/div/div/div/section/div/ul/*",
   "pageElementType": "xpath",
-  "removeElement": "//li[@class='sc-l7cibp-2 gpVAva'][./div[@class='sc-rp5asc-0 fxGVAF']]",
+  "removeElementPath": "//li[@class='sc-l7cibp-2 gpVAva'][./div[@class='sc-rp5asc-0 fxGVAF']]",
   "title": "Pixiv - Illustrations and Manga",
   "type": "regex",
   "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(illustrations|manga)"
@@ -22,7 +22,7 @@
   "id": 2,
   "pageElementPath": "//div[@class='sc-9y4be5-0 gTaKEp']",
   "pageElementType": "xpath",
-  "removeElement": "//div[@class=\"sc-1dcltmz-0 iRWVTq\"]",
+  "removeElementPath": "//div[@class=\"sc-1dcltmz-0 iRWVTq\"]",
   "title": "Pixiv - Novels",
   "type": "regex",
   "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(novels)"
@@ -36,7 +36,7 @@
   "id": 3,
   "pageElementPath": "//section[./div[@id='item-grid']]",
   "pageElementType": "xpath",
-  "removeElement": "//section[./ul[@data-testid='item-grid-skeleton']]",
+  "removeElementPath": "//section[./ul[@data-testid='item-grid-skeleton']]",
   "title": "Mercari JP - Search",
   "type": "regex",
   "url": "https://jp\\.mercari\\.com/search\\?"
