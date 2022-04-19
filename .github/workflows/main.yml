@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Workflow Job
     steps:
-      # Checkout: To use this repository's action, you must check out the repository
+      # Checkout: To use this repository's action, we must check out the repository
       - name: Checkout
         uses: actions/checkout@v3
       # Action: Run the action
@@ -25,7 +25,7 @@ jobs:
         with:
           url: 'http://wedata.net/databases/AutoPagerize/items_all.json'
           file: 'databases/AutoPagerize/items_all.json'
-      # Commit: Commit the created file that the action created (if successful)
+      # Commit: Commit the action's file changes (if successful)
       - name: Commit
         if: steps.action.outputs.successful == 'true'
         run: |
