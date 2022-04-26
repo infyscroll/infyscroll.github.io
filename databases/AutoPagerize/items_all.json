@@ -16,16 +16,17 @@
   {
     "resource_url": "http://wedata.net/items/85903",
     "data": {
-      "pageElement": "//div[@class=\"article-body\"]|//div[@class=\"article-list index\"]",
-      "nextLink": "//span[@class=\"next\"]/a",
-      "url": "^https://media\\.rakuten-sec\\.net/articles/",
+      "pageElement": "//article/div[1]|//ul[.//div[@class='cname']]",
+      "comment": "If pageElement is specified by li, it will affect the design.",
+      "nextLink": "//span[@class='next']/a",
+      "url": "^https://media\\.rakuten-sec\\.net/",
       "exampleUrl": "https://media.rakuten-sec.net/articles/-/36563 https://media.rakuten-sec.net/category/toushiru?page=2"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "usave",
     "name": "トウシル | 楽天証券の投資情報メディア",
     "created_at": "2022-04-24T13:27:52+09:00",
-    "updated_at": "2022-04-24T13:31:12+09:00"
+    "updated_at": "2022-04-26T07:54:38+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85892",
