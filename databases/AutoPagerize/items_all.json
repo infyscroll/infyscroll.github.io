@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/85906",
+    "data": {
+      "pageElement": "//div[@class='detail-text']|//ul[@class='list-tile'][not(//div[@class='detail-text'])]",
+      "comment": "If pageElement is specified by li, it will affect the design.",
+      "nextLink": "//*[@aria-current or @class='current']/following-sibling::*[1]/descendant-or-self::a",
+      "url": "^https://yomitai\\.jp/",
+      "exampleUrl": "https://yomitai.jp/series/sengokumeido/12-katsuie/ https://yomitai.jp/special/"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "t_f_m'",
+    "name": "よみタイ yomitai",
+    "created_at": "2022-04-30T21:53:52+09:00",
+    "updated_at": "2022-05-01T07:48:01+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/85904",
     "data": {
       "pageElement": "//ul[@class='rank' or @class='list']/li",
