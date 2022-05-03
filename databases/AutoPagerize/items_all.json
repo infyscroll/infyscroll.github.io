@@ -1,5 +1,35 @@
 [
   {
+    "resource_url": "http://wedata.net/items/85908",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//section//div[@data-widget_type='theme-post-content.default']\r\n",
+      "nextLink": "//div[@class='next-page-link']/a",
+      "url": "^https://glassgirl\\.info/",
+      "exampleUrl": "https://glassgirl.info/article/post-7237/"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "t_f_m'",
+    "name": "ガラスガール glass girl",
+    "created_at": "2022-05-02T16:08:10+09:00",
+    "updated_at": "2022-05-02T16:08:10+09:00"
+  },
+  {
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//div[@class='content-body']/*[not(self::nav)]",
+      "nextLink": "//li[@class='mod-pre-nex-prev']/a",
+      "url": "^https://blog\\.goo\\.ne\\.jp/kanayame_47(?!/follower)",
+      "exampleUrl": "https://blog.goo.ne.jp/kanayame_47\r\nhttps://blog.goo.ne.jp/kanayame_47/e/140a5677221f3631f70e5dc353f3776e"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "Griever3",
+    "resource_url": "http://wedata.net/items/85907",
+    "name": "午後のアダージォ",
+    "created_at": "2022-05-02T09:10:56+09:00",
+    "updated_at": "2022-05-02T09:10:56+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/85906",
     "data": {
       "pageElement": "//div[@class='detail-text']|//ul[@class='list-tile'][not(//div[@class='detail-text'])]",
@@ -577,18 +607,18 @@
     "updated_at": "2022-02-01T12:25:41+09:00"
   },
   {
-    "resource_url": "http://wedata.net/items/85836",
     "data": {
-      "pageElement": "//div[@class=\"post__list\"]/a",
+      "pageElement": "//div[@class='post__list'][./a]/ancestor::*[./following-sibling::* or ./preceding-sibling::*][2]",
       "nextLink": "//li[@class=\"pager--next\"]/a",
       "url": "^https://blog\\.goo\\.ne\\.jp/.+",
-      "exampleUrl": "https://blog.goo.ne.jp/mai_2014yokohama https://blog.goo.ne.jp/portal/tags/DIY https://blog.goo.ne.jp/portal/hotentry_ranking"
+      "exampleUrl": "https://blog.goo.ne.jp/mai_2014yokohama https://blog.goo.ne.jp/portal/tags/%E3%83%AA%E3%83%8E%E3%83%99 https://blog.goo.ne.jp/portal/hotentry_ranking"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "kenzou_ogawa2",
+    "resource_url": "http://wedata.net/items/85836",
     "name": "blog.goo.ne.jp postlist",
     "created_at": "2022-01-29T20:46:56+09:00",
-    "updated_at": "2022-02-05T08:06:48+09:00"
+    "updated_at": "2022-05-02T14:05:13+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85835",
@@ -8951,14 +8981,14 @@
     "data": {
       "pageElement": "id(\"latest\")/article | //div[@class=\"comment\"]",
       "nextLink": "//*[@rel=\"next\"]",
-      "url": "^https?://grapee\\.jp/",
+      "url": "^https?://grapee\\.jp/.",
       "exampleUrl": "https://grapee.jp/article-new\r\nhttps://grapee.jp/949739"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "hatenaZZZ",
     "name": "grape [グレイプ]",
     "created_at": "2018-10-24T15:16:09+09:00",
-    "updated_at": "2021-05-03T11:53:03+09:00"
+    "updated_at": "2022-05-02T09:16:45+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/81999",
@@ -44341,7 +44371,7 @@
     "data": {
       "pageElement": "//div[@class='mod-entry-set'][not(@id='mod-freearea-main')]\r\n|\r\n//div[@class='entry-set']\r\n|\r\n//div[@class='contents']//div[@class='post__list']\r\n|\r\n//td[@class='entry']/div[table]/*\r\n|\r\n//div[@class='oneEntry']",
       "comment": "gooブログ全体で動作します。動作のおかしいブログがある場合はそのブログ用の SITEINFO を別に作成することを推奨します。\\nIt works for all goo blogs. If you have a blog that does not work properly, we recommend that you create a separate SITEINFO for that blog.",
-      "nextLink": "(//li[@class='mod-pre-nex-prev']/a\r\n|\r\nid('next-back')/*[@class='etPrev']/a\r\n|\r\n//ul[@class='pager']//li[@class='pager--next']/a\r\n|\r\n//td[@class='etNextPrev' and @align='left']/a)[not(contains(@href, '/e/') or contains(@href, '/arcv') or contains(@href, '/images'))]",
+      "nextLink": "(//li[@class='mod-pre-nex-prev']/a\r\n|\r\nid('next-back')/*[@class='etPrev']/a\r\n|\r\n//ul[@class='pager']//li[@class='pager--next']/a\r\n|\r\n//td[@class='etNextPrev' and @align='left']/a)[not(contains(@href, '/e/') or contains(@href, '/arcv') or contains(@href, '/images') or contains(@href, '/follower'))]",
       "url": "^https://blog\\.goo\\.ne\\.jp/.",
       "exampleUrl": "https://blog.goo.ne.jp/krmmk3 https://blog.goo.ne.jp/isehakusandou\r\nhttps://blog.goo.ne.jp/kishi-akira\r\nhttps://blog.goo.ne.jp/mai_2014yokohama https://blog.goo.ne.jp/portal/tags/DIY https://blog.goo.ne.jp/portal/hotentry_ranking\r\nhttps://blog.goo.ne.jp/krl7003 https://blog.goo.ne.jp/thetrailstore\r\nhttps://blog.goo.ne.jp/adoi"
     },
@@ -44349,7 +44379,7 @@
     "created_by": "haoyayoi",
     "name": "blog.goo.ne.jp 汎用設定（個別記事は除く）",
     "created_at": "2009-03-26T16:23:54+09:00",
-    "updated_at": "2022-02-04T18:05:44+09:00"
+    "updated_at": "2022-05-02T09:10:03+09:00"
   },
   {
     "name": "WEBdeDB.com",
