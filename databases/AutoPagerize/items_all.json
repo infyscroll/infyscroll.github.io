@@ -1461,8 +1461,8 @@
   {
     "resource_url": "http://wedata.net/items/85774",
     "data": {
-      "insertBefore": "",
-      "pageElement": "//div[./div[@role=\"navigation\"]]/preceding-sibling::*",
+      "pageElement": "//div[@class='nextpage-wrapper']/preceding-sibling::*",
+      "considerationUrl": "https://www.webcartop.jp/topic-news/",
       "nextLink": "//link[@rel=\"next\"]",
       "url": "^https://www\\.webcartop\\.jp/",
       "exampleUrl": "https://www.webcartop.jp/2022/01/824988/"
@@ -1471,7 +1471,7 @@
     "created_by": "kenzou_ogawa2",
     "name": "WEB CARTOP",
     "created_at": "2022-01-02T10:01:34+09:00",
-    "updated_at": "2022-01-02T10:01:34+09:00"
+    "updated_at": "2022-05-04T08:55:15+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85773",
