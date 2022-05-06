@@ -8370,17 +8370,17 @@
   },
   {
     "resource_url": "http://wedata.net/items/82065",
-    "name": "写真AC",
-    "created_by": "t_f_m",
-    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-    "updated_at": "2019-01-27T11:55:42+09:00",
     "data": {
-      "exampleUrl": "https://www.photo-ac.com/main/search?c_id=1&referer=c_search&srt=dlrank&c_name=%E4%BA%BA%E7%89%A9",
+      "pageElement": "//div[contains(@class,'flex-images')]",
+      "nextLink": "//li/a[@class='next']",
       "url": "^https://www\\.photo-ac\\.com/main/search",
-      "pageElement": "id('list')/node()[not(@class='cf'][@class='photo-img']",
-      "nextLink": "//li/a[@class='next']"
+      "exampleUrl": "https://www.photo-ac.com/main/search?c_id=1&referer=c_search&srt=dlrank&c_name=%E4%BA%BA%E7%89%A9"
     },
-    "created_at": "2019-01-25T18:38:05+09:00"
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "t_f_m",
+    "name": "写真AC",
+    "created_at": "2019-01-25T18:38:05+09:00",
+    "updated_at": "2022-05-05T14:02:21+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/82063",
