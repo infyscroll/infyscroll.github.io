@@ -50097,19 +50097,20 @@
     "updated_at": "2022-01-28T18:50:35+09:00"
   },
   {
-    "resource_url": "http://wedata.net/items/681",
     "data": {
-      "pageElement": "id(\"posts\")[count(./*)>1]/*|//article",
+      "pageElement": "id(\"posts\")[count(./*)>1]/*",
+      "considerationUrl": "https://staff.tumblr.com/",
       "comment": "http://taizooo.tumblr.com/post/65704255/nextlink-2\r\nhAtom : http://wedata.net/items/31114 と AutoPagerizeFORMAT : http://wedata.net/items/31158\r\nよりこの SITEINFO を優先度を低くするために url の文字数を hAtom より1文字以上短かくする必要があります。また ^http://ku\\.tumblr\\.com/ といった個別の SITEINFO より優先度を下げるため url は可能なかぎり短くする必要があります。\r\npageElement は LDRize SITEINFO : http://wedata.net/items/28521?rev=41785 の paragraph をベースにしました。",
-      "nextLink": "//a[@rel=\"next\"]|(//a[contains(@href,\"/page/2\")][//link[@rel=\"canonical\"][not(contains(@href,\"/page/\"))]]|//a[contains(@href,concat(\"/page/\",number(substring-after(//link[@rel=\"canonical\"]/@href,\"/page/\"))+1))])[not(//a[@rel=\"next\"])]",
+      "nextLink": "//a[@rel=\"next\"]|(//a[contains(@href,\"/page/2\")][//link[@rel=\"canonical\"][not(contains(@href,\"/page/\"))]]|//a[contains(@href,concat(\"/page/\",number(substring-after(//link[@rel=\"canonical\"]/@href,\"/page/\"))+1))])[not(//a[@rel=\"next\"])][not(@class='next invisible')]",
       "url": "^.+://[^/]+\\.tumblr\\.com/",
-      "exampleUrl": "https://illillill.tumblr.com/ https://catasters.tumblr.com/ https://staff.tumblr.com/"
+      "exampleUrl": "https://illillill.tumblr.com/"
     },
-    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "swdyh",
+    "resource_url": "http://wedata.net/items/681",
     "name": "Tumblr",
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_at": "2008-04-16T12:36:28+09:00",
-    "updated_at": "2022-01-15T10:04:10+09:00"
+    "updated_at": "2022-05-06T10:54:32+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/679",
