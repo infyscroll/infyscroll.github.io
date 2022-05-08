@@ -1,5 +1,33 @@
 [
   {
+    "resource_url": "http://wedata.net/items/85912",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//body",
+      "nextLink": "//a[text()='Next>>']",
+      "url": "https://bbs2.forestofbreast.com/white/",
+      "exampleUrl": ""
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "ubhu",
+    "name": "White-BBS",
+    "created_at": "2022-05-07T22:43:01+09:00",
+    "updated_at": "2022-05-07T22:43:01+09:00"
+  },
+  {
+    "resource_url": "http://wedata.net/items/85911",
+    "data": {
+      "pageElement": "//body",
+      "nextLink": "//a[@class='pagination-next button is-primary']",
+      "url": "https://onejav.com/*"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "ubhu",
+    "name": "OneJav",
+    "created_at": "2022-05-07T22:35:59+09:00",
+    "updated_at": "2022-05-07T22:38:09+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/85909",
     "data": {
       "insertBefore": "",
@@ -15,19 +43,18 @@
     "updated_at": "2022-05-03T09:51:15+09:00"
   },
   {
-    "resource_url": "http://wedata.net/items/85908",
     "data": {
-      "insertBefore": "",
-      "pageElement": "//section//div[@data-widget_type='theme-post-content.default']\r\n",
+      "pageElement": "//div[contains(@class,'hentry')]//div[count(./div)>1 and count(./*[not(self::div)])>1]",
       "nextLink": "//div[@class='next-page-link']/a",
       "url": "^https://glassgirl\\.info/",
       "exampleUrl": "https://glassgirl.info/article/post-7237/"
     },
-    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "t_f_m'",
+    "resource_url": "http://wedata.net/items/85908",
     "name": "ガラスガール glass girl",
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_at": "2022-05-02T16:08:10+09:00",
-    "updated_at": "2022-05-02T16:08:10+09:00"
+    "updated_at": "2022-05-07T19:47:01+09:00"
   },
   {
     "data": {
@@ -2830,7 +2857,8 @@
   {
     "resource_url": "http://wedata.net/items/85560",
     "data": {
-      "pageElement": "//*[./div[@class=\"post\"]]/div[@class]",
+      "pageElement": "//*[count(./div[@class='post'])=count(//div[contains(@class,'post')])]/div[@class][//div[contains(@class,'post')]]",
+      "considerationUrl": "https://japanesesuburbia.tumblr.com/",
       "nextLink": "//a[contains(@href,\"/page/2\")][//link[@rel=\"canonical\"][not(contains(@href,\"/page/\"))]]|//a[contains(@href,concat(\"/page/\",number(substring-after(//link[@rel=\"canonical\"]/@href,\"/page/\"))+1))]",
       "url": "^https?://[^/]+\\.tumblr\\.com/*",
       "exampleUrl": "https://23hourpartypeople.tumblr.com/\r\nhttps://boooook.tumblr.com/\r\nhttps://suyhnc.tumblr.com/\r\nhttps://gforcepdx.tumblr.com/\r\nhttps://katoyuu.tumblr.com/\r\nhttps://maybowjing.tumblr.com/"
@@ -2839,7 +2867,7 @@
     "created_by": "kenzou_ogawa",
     "name": "Tumblr - post",
     "created_at": "2020-11-12T20:12:34+09:00",
-    "updated_at": "2022-01-15T08:01:16+09:00"
+    "updated_at": "2022-05-07T14:55:02+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85556",
@@ -24168,17 +24196,17 @@
   },
   {
     "resource_url": "http://wedata.net/items/74786",
-    "name": "GoComics",
-    "created_by": "Tanookirby",
-    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-    "updated_at": "2018-07-23T05:22:52+09:00",
     "data": {
-      "exampleUrl": "https://www.gocomics.com/jumpstart/2010/01/01 https://www.gocomics.com/news/all https://www.gocomics.com/mycomics/1616440/edit",
+      "pageElement": "//picture[@class='item-comic-image']/ancestor::div[1]|//div[./a//img][.//h4[@class='card-title']][not(//picture[@class='item-comic-image'])]",
+      "nextLink": "//a[@rel='next']|//div[@class='gc-calendar-nav__next']/a[1]",
       "url": "^https?://(www\\.)?gocomics\\.com/",
-      "pageElement": "//div[@class='item-comic-vertical-wrapper' or @class='comic__wrapper' or contains(@class,' gc-deck--has-ads gc-deck gc-deck--third')]|//a[@class='gc-card-item' and not(id('js-item-start')/div) or @class='col-12 col-sm-6 col-md-4 mb-5 gc-card-item']|//div[@class='row content-section js-available-features']/*",
-      "nextLink": "//div[@class='gc-calendar-nav__next']/a[last()-1][not(contains(@class,'disabled'))]|//span[contains(@class,'--active')]/following-sibling::a[@rel='next'][1]"
+      "exampleUrl": "https://www.gocomics.com/jumpstart/2010/01/01 https://www.gocomics.com/blog https://www.gocomics.com/blog?page=2"
     },
-    "created_at": "2014-04-22T12:28:50+09:00"
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "Tanookirby",
+    "name": "GoComics",
+    "created_at": "2014-04-22T12:28:50+09:00",
+    "updated_at": "2022-05-07T19:09:47+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/74753",
