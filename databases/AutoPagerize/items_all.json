@@ -1,5 +1,21 @@
 [
   {
+    "resource_url": "http://wedata.net/items/85913",
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "id('content-wrapper')/*[last()]",
+      "comment": "This is a dummy code for 400.",
+      "nextLink": "//a[@href='/ask']",
+      "url": "^https?://aceattorneytextposts\\.tumblr\\.com/",
+      "exampleUrl": "https://aceattorneytextposts.tumblr.com/"
+    },
+    "created_by": "jigen_ldid",
+    "name": "Text Posts from the Courtroom",
+    "created_at": "2022-05-09T20:12:08+09:00",
+    "updated_at": "2022-05-09T20:12:08+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/85912",
     "data": {
       "insertBefore": "",
@@ -50125,20 +50141,20 @@
     "updated_at": "2022-01-28T18:50:35+09:00"
   },
   {
+    "resource_url": "http://wedata.net/items/681",
     "data": {
-      "pageElement": "id(\"posts\")[count(./*)>1]/*",
-      "considerationUrl": "https://staff.tumblr.com/",
+      "pageElement": "id('posts')[count(./*)>1 and not(./article)]/*",
+      "considerationUrl": "https://staff.tumblr.com/ https://bychloethemes.tumblr.com/",
       "comment": "http://taizooo.tumblr.com/post/65704255/nextlink-2\r\nhAtom : http://wedata.net/items/31114 と AutoPagerizeFORMAT : http://wedata.net/items/31158\r\nよりこの SITEINFO を優先度を低くするために url の文字数を hAtom より1文字以上短かくする必要があります。また ^http://ku\\.tumblr\\.com/ といった個別の SITEINFO より優先度を下げるため url は可能なかぎり短くする必要があります。\r\npageElement は LDRize SITEINFO : http://wedata.net/items/28521?rev=41785 の paragraph をベースにしました。",
       "nextLink": "//a[@rel=\"next\"]|(//a[contains(@href,\"/page/2\")][//link[@rel=\"canonical\"][not(contains(@href,\"/page/\"))]]|//a[contains(@href,concat(\"/page/\",number(substring-after(//link[@rel=\"canonical\"]/@href,\"/page/\"))+1))])[not(//a[@rel=\"next\"])][not(@class='next invisible')]",
       "url": "^.+://[^/]+\\.tumblr\\.com/",
       "exampleUrl": "https://illillill.tumblr.com/"
     },
-    "created_by": "swdyh",
-    "resource_url": "http://wedata.net/items/681",
-    "name": "Tumblr",
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "swdyh",
+    "name": "Tumblr",
     "created_at": "2008-04-16T12:36:28+09:00",
-    "updated_at": "2022-05-06T10:54:32+09:00"
+    "updated_at": "2022-05-09T19:49:32+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/679",
