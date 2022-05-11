@@ -1,5 +1,51 @@
 [
   {
+    "resource_url": "http://wedata.net/items/85916",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//aside/figure",
+      "nextLink": "//ul[@class='module-article-header-photo-thumbs--gallery']/li[contains(concat(' ',@class,' '),' selected ')]/following-sibling::li/a",
+      "url": "^https://yorozoonews\\.jp/article/\\d+\\?p=",
+      "exampleUrl": "https://yorozoonews.jp/article/14437867?p=26362381\""
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "t_f_m'",
+    "name": "よろずーニュース 写真",
+    "created_at": "2022-05-10T14:15:51+09:00",
+    "updated_at": "2022-05-10T14:15:51+09:00"
+  },
+  {
+    "resource_url": "http://wedata.net/items/85915",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//div[@class='footer-border']",
+      "comment": "This is a dummy code for 400.",
+      "nextLink": "//a[@href='/ask']",
+      "url": "^https?://i-donline\\.tumblr\\.com/",
+      "exampleUrl": "https://i-donline.tumblr.com/"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "jigen_ldid",
+    "name": "i-D",
+    "created_at": "2022-05-10T10:16:57+09:00",
+    "updated_at": "2022-05-10T10:16:57+09:00"
+  },
+  {
+    "resource_url": "http://wedata.net/items/85914",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//article",
+      "nextLink": "//a[@title='Older entries']",
+      "url": "^https?://bisuke\\.tumblr\\.com/",
+      "exampleUrl": "https://bisuke.tumblr.com/"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "jigen_ldid",
+    "name": "bisuke's tumblr",
+    "created_at": "2022-05-10T10:06:25+09:00",
+    "updated_at": "2022-05-10T10:06:25+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/85913",
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "data": {
