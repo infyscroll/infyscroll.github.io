@@ -948,7 +948,7 @@
   {
     "resource_url": "http://wedata.net/items/85819",
     "data": {
-      "pageElement": "//section[@role='main']//div[@class='navigation']/preceding-sibling::*[not(self::header)]",
+      "pageElement": "id('gallery-header')|//section[@role='main']/*[self::section or self::article]",
       "nextLink": "//div[@class=\"alignleft\"]/a",
       "url": "^https://unmatchedstyle\\.com/",
       "exampleUrl": "https://unmatchedstyle.com/news\r\nhttps://unmatchedstyle.com/gallery\r\nhttps://unmatchedstyle.com/radar"
@@ -957,7 +957,7 @@
     "created_by": "kenzou_ogawa2",
     "name": "Unmatched Style",
     "created_at": "2022-01-22T20:21:24+09:00",
-    "updated_at": "2022-01-28T18:50:13+09:00"
+    "updated_at": "2022-05-13T07:32:56+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85818",
@@ -50175,16 +50175,16 @@
   {
     "resource_url": "http://wedata.net/items/683",
     "data": {
-      "pageElement": "(//article|//div[starts-with(@id,'post-')])[not(ancestor::aside)]",
+      "pageElement": "(//article|//div[starts-with(@id,'post-')])[not(ancestor::*[self::aside or @id='sidebar'])]",
       "nextLink": "//div[contains(concat(' ',@class,' '),' alignleft ')]/a",
       "url": "^https?://[^/]*(mozillazine|blueblack|bugyo\\.tk/lyrical/|luidinfo|php6\\.jp/python|blogs?\\.(fluidinfo|richardroeper)|gimp\\.ironsand|newalbumreleases|wnyan)",
-      "exampleUrl": "https://mozillazine.jp/ http://bungu.blueblack.net/ http://blog.bugyo.tk/lyrical/page/2 http://blogs.fluidinfo.com/terry/ http://php6.jp/python/ https://gimp.ironsand.net/page/2/ https://newalbumreleases.net/category/cat/ http://blog.richardroeper.com/ http://wnyan.jp/page/2 "
+      "exampleUrl": "https://mozillazine.jp/ http://bungu.blueblack.net/ http://blog.bugyo.tk/lyrical/page/2 http://blogs.fluidinfo.com/terry/ http://php6.jp/python/ https://gimp.ironsand.net/ https://newalbumreleases.net/category/cat/ http://blog.richardroeper.com/ http://wnyan.jp/page/2"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "swdyh",
     "name": "Generic Posts Rule (alignleft)",
     "created_at": "2008-04-16T12:36:29+09:00",
-    "updated_at": "2022-01-28T18:50:35+09:00"
+    "updated_at": "2022-05-12T22:37:12+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/681",
