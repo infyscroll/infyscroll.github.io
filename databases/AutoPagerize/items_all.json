@@ -19564,14 +19564,14 @@
     "data": {
       "pageElement": "//ul[contains(concat(' ', normalize-space(@class), ' '), ' package-list-view ')]",
       "nextLink": "//li[contains(concat(' ', normalize-space(@class), ' '), ' next ')]/a",
-      "url": "^https://chocolatey\\.org/packages",
+      "url": "^https://",
       "exampleUrl": "https://chocolatey.org/packages?q=git"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "t_f_m",
     "name": "chocolatey packeges",
     "created_at": "2015-04-16T00:25:46+09:00",
-    "updated_at": "2020-06-06T15:00:08+09:00"
+    "updated_at": "2022-05-14T00:18:29+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/77139",
