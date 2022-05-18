@@ -1,5 +1,20 @@
 [
   {
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//div[@class=\"articleDetailTxtTit\"]",
+      "nextLink": "//a[@class=\"articleDetailNext\"]",
+      "url": "^https?://cinema\\.ne\\.jp/article/",
+      "exampleUrl": "https://cinema.ne.jp/article/detail/49610"
+    },
+    "resource_url": "http://wedata.net/items/85918",
+    "created_by": "brib2",
+    "name": "cinemas PLUS",
+    "created_at": "2022-05-17T08:47:09+09:00",
+    "updated_at": "2022-05-17T08:47:09+09:00",
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize"
+  },
+  {
     "resource_url": "http://wedata.net/items/85916",
     "data": {
       "insertBefore": "",
