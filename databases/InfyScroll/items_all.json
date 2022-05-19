@@ -1,5 +1,10 @@
 [
   {
+    "resource_url": "foo",
+    "name": "bar",
+    "data": {}
+  },
+  {
     "resource_url": "https://infyscroll.github.io/databases/InfyScroll/items_all.json",
     "name": "Pixiv - Illustrations and Manga",
     "data": {
