@@ -9775,17 +9775,17 @@
   },
   {
     "resource_url": "http://wedata.net/items/81826",
-    "name": "imidas",
-    "created_by": "jigendaddy_be",
-    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-    "updated_at": "2018-07-28T20:56:46+09:00",
     "data": {
-      "exampleUrl": "https://imidas.jp/progamer/?article_id=l-78-002-17-09-g639",
-      "url": "^https://imidas\\.jp/",
       "pageElement": "//div[@class=\"DetailtextArea textlink\"]/node()",
-      "nextLink": "//div[@class=\"articleList\"]//li[not(./a)]/following-sibling::li[1]/a"
+      "nextLink": "//div[@class='p_pager-list']/div[contains(concat(' ',@class,' '),' s_current ')]/following-sibling::div/a",
+      "url": "^https://imidas\\.jp/",
+      "exampleUrl": "https://imidas.jp/progamer/?article_id=l-78-002-17-09-g639\r\nhttps://imidas.jp/jijikaitai/l-40-293-22-05-g882"
     },
-    "created_at": "2018-07-20T22:14:32+09:00"
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "jigendaddy_be",
+    "name": "imidas",
+    "created_at": "2018-07-20T22:14:32+09:00",
+    "updated_at": "2022-05-26T17:50:57+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/81797",
@@ -27165,17 +27165,17 @@
   },
   {
     "resource_url": "http://wedata.net/items/65467",
-    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-    "created_at": "2012-12-23T11:38:45+09:00",
     "data": {
-      "pageElement": "//div[article/@class='feed-item']|//article[@class='text'][id('ct-nav-date')]",
-      "exampleUrl": "https://www.cinematoday.jp/interview/ https://www.cinematoday.jp/page/N0067251 https://www.cinematoday.jp/page/N0072746",
-      "url": "^https://(www\\.)cinematoday\\.jp/",
-      "nextLink": "//li[@class='page-item active']/following-sibling::li[1]/a"
+      "pageElement": "//article[@class='text']/*[not(@id='ct-pageheader' and contains(.,'ページ目') or @class='ct-ad away-y')]",
+      "nextLink": "//nav/ul[count(li)=3]/li[1]/a|//nav/ul[count(li)>3]/li[@class='page-item active']/following-sibling::li[1]/a",
+      "url": "^https://www\\.cinematoday\\.jp/",
+      "exampleUrl": "https://www.cinematoday.jp/interview/\r\nhttps://www.cinematoday.jp/page/N0067251\r\nhttps://www.cinematoday.jp/page/N0072746"
     },
-    "updated_at": "2020-05-25T11:54:11+09:00",
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "jigendaddy_be",
     "name": "シネマトゥデイ",
-    "created_by": "jigendaddy_be"
+    "created_at": "2012-12-23T11:38:45+09:00",
+    "updated_at": "2022-05-27T08:06:12+09:00"
   },
   {
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
