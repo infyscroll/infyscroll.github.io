@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/85922",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//div[@class=\"article-body\"]",
+      "nextLink": "//a[@class=\"article-next\"]",
+      "url": "^https?://newsdig\\.tbs\\.co\\.jp/articles/-/",
+      "exampleUrl": "https://newsdig.tbs.co.jp/articles/-/36414?display=1"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "brib2",
+    "name": "TBS NEWS DIG",
+    "created_at": "2022-05-27T14:31:47+09:00",
+    "updated_at": "2022-05-27T14:31:47+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/85920",
     "data": {
       "pageElement": "//div[@class='entry-content']/p[last()]/preceding-sibling::*",
@@ -1565,7 +1580,8 @@
     "resource_url": "http://wedata.net/items/85775",
     "data": {
       "pageElement": "//article//dl",
-      "nextLink": "//link[@rel=\"next\"]",
+      "considerationUrl": "https://blog.fitnessfield.jp/six-meals-a-day-diet-keiko-kitagawa/",
+      "nextLink": "//link[@rel=\"next\"][not(//body[contains(@class, 'single-post')])]",
       "url": "^https://(hisa-himi|basement-times|fis314|blog\\.fitnessfield)",
       "exampleUrl": "https://hisa-himi.site/ https://basement-times.com/ https://fis314.com/category/diary/ https://blog.fitnessfield.jp/"
     },
@@ -1573,7 +1589,7 @@
     "created_by": "kenzou_ogawa2",
     "name": "Article dl",
     "created_at": "2022-01-02T13:56:46+09:00",
-    "updated_at": "2022-01-28T15:09:29+09:00"
+    "updated_at": "2022-05-28T08:21:26+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85774",
@@ -23595,16 +23611,17 @@
   {
     "resource_url": "http://wedata.net/items/74925",
     "data": {
-      "pageElement": "//div[contains(concat(' ',@class,' '),' m-article-text-main ')]/node()|//div[contains(concat(' ',@class,' '),' js-ajax-load-contents ')]/*",
-      "nextLink": "//link[@rel='next']",
+      "pageElement": "//div[@class='l-article-pager']/preceding-sibling::div[last()]/node()|//div[./article][not(//div[@class='l-article-pager'])]",
+      "comment": "//link[@rel='next'] is bad. https://kai-you.net/category/art?page=2",
+      "nextLink": "//a[@rel='next']|//link[@rel='next'][not(//a[@rel='next'])]",
       "url": "^https://kai-you\\.net/",
-      "exampleUrl": "https://kai-you.net/article/4811\r\nhttps://kai-you.net/article/4811/page/2\r\nhttps://kai-you.net/recent\r\nhttps://kai-you.net/article/79091"
+      "exampleUrl": "https://kai-you.net/article/4811\r\nhttps://kai-you.net/article/4811/page/2\r\nhttps://kai-you.net/article/79091\r\nhttps://kai-you.net/recent"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "taizooo",
     "name": "KAI-YOU.net",
     "created_at": "2014-06-27T14:01:04+09:00",
-    "updated_at": "2020-12-28T20:48:02+09:00"
+    "updated_at": "2022-05-27T19:43:16+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/74923",
@@ -27166,16 +27183,16 @@
   {
     "resource_url": "http://wedata.net/items/65467",
     "data": {
-      "pageElement": "//article[@class='text']/*[not(@id='ct-pageheader' and contains(.,'ページ目') or @class='ct-ad away-y')]",
-      "nextLink": "//nav/ul[count(li)=3]/li[1]/a|//nav/ul[count(li)>3]/li[@class='page-item active']/following-sibling::li[1]/a",
+      "pageElement": "//main/article",
+      "nextLink": "//li[@class='page-item active']/following-sibling::li[1]/a[number(./text())>0]|//li[./a[@href='/calendar/']]/preceding-sibling::li[1]/a[not(number(./text())>0)]",
       "url": "^https://www\\.cinematoday\\.jp/",
-      "exampleUrl": "https://www.cinematoday.jp/interview/\r\nhttps://www.cinematoday.jp/page/N0067251\r\nhttps://www.cinematoday.jp/page/N0072746"
+      "exampleUrl": "https://www.cinematoday.jp/interview/\r\nhttps://www.cinematoday.jp/cat/matome/list\r\nhttps://www.cinematoday.jp/page/N0067251\r\nhttps://www.cinematoday.jp/page/N0072746"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "jigendaddy_be",
     "name": "シネマトゥデイ",
     "created_at": "2012-12-23T11:38:45+09:00",
-    "updated_at": "2022-05-27T08:06:12+09:00"
+    "updated_at": "2022-05-27T12:32:06+09:00"
   },
   {
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
