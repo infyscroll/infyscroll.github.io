@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/85928",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//div[starts-with(@class,'styles_articleContent')]",
+      "nextLink": "//ul[starts-with(@class,'styles_numbersList')]/li[div]/following-sibling::li/a",
+      "url": "^https://friday\\.kodansha\\.co\\.jp/article/",
+      "exampleUrl": "https://friday.kodansha.co.jp/article/245048"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "t_f_m'",
+    "name": "FRIDAY デジタル",
+    "created_at": "2022-06-02T17:22:53+09:00",
+    "updated_at": "2022-06-02T17:22:53+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/85925",
     "data": {
       "pageElement": "//div[./div[@class='post-item']]/div[@class='post-item' or @class='date']",
