@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/85932",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//div[@class='post_content']",
+      "nextLink": "//link[@rel='next']",
+      "url": "^https://tabippo\\.net/",
+      "exampleUrl": "https://tabippo.net/gourmet-vancouver/"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "Griever3",
+    "name": "TABIPPO.NET",
+    "created_at": "2022-06-11T10:47:08+09:00",
+    "updated_at": "2022-06-11T10:47:08+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/85930",
     "data": {
       "insertBefore": "",
@@ -249,19 +264,18 @@
     "updated_at": "2022-05-07T19:47:01+09:00"
   },
   {
+    "resource_url": "http://wedata.net/items/85907",
     "data": {
-      "insertBefore": "",
-      "pageElement": "//div[@class='content-body']/*[not(self::nav)]",
-      "nextLink": "//li[@class='mod-pre-nex-prev']/a",
-      "url": "^https://blog\\.goo\\.ne\\.jp/kanayame_47(?!/follower)",
-      "exampleUrl": "https://blog.goo.ne.jp/kanayame_47\r\nhttps://blog.goo.ne.jp/kanayame_47/e/140a5677221f3631f70e5dc353f3776e"
+      "pageElement": "//div[@class='content-body']/*[self::section or self::article][div[@class='mod-entry-set' or @id='mod-comments'][not(@id='mod-freearea-main')]]",
+      "nextLink": "//li[@class='mod-pre-nex-prev']/a[not(contains(@href, '/arcv') or contains(@href, '/images') or contains(@href, '/follower') or contains(@href, '/pch'))]",
+      "url": "^https://blog\\.goo\\.ne\\.jp/..+",
+      "exampleUrl": "https://blog.goo.ne.jp/kanayame_47\r\nhttps://blog.goo.ne.jp/kanayame_47/e/140a5677221f3631f70e5dc353f3776e\r\nhttps://blog.goo.ne.jp/aerialreal"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "Griever3",
-    "resource_url": "http://wedata.net/items/85907",
-    "name": "午後のアダージォ",
+    "name": "blog.goo.ne.jp wrapped mod-entry-set",
     "created_at": "2022-05-02T09:10:56+09:00",
-    "updated_at": "2022-05-02T09:10:56+09:00"
+    "updated_at": "2022-06-11T10:41:15+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85906",
@@ -44606,7 +44620,7 @@
     "data": {
       "pageElement": "//div[@class='mod-entry-set'][not(@id='mod-freearea-main')]\r\n|\r\n//div[@class='entry-set']\r\n|\r\n//div[@class='contents']//div[@class='post__list']\r\n|\r\n//td[@class='entry']/div[table]/*\r\n|\r\n//div[@class='oneEntry']",
       "comment": "gooブログ全体で動作します。動作のおかしいブログがある場合はそのブログ用の SITEINFO を別に作成することを推奨します。\\nIt works for all goo blogs. If you have a blog that does not work properly, we recommend that you create a separate SITEINFO for that blog.",
-      "nextLink": "(//li[@class='mod-pre-nex-prev']/a\r\n|\r\nid('next-back')/*[@class='etPrev']/a\r\n|\r\n//ul[@class='pager']//li[@class='pager--next']/a\r\n|\r\n//td[@class='etNextPrev' and @align='left']/a)[not(contains(@href, '/e/') or contains(@href, '/arcv') or contains(@href, '/images') or contains(@href, '/follower'))]",
+      "nextLink": "(//li[@class='mod-pre-nex-prev']/a\r\n|\r\nid('next-back')/*[@class='etPrev']/a\r\n|\r\n//ul[@class='pager']//li[@class='pager--next']/a\r\n|\r\n//td[@class='etNextPrev' and @align='left']/a)[not(contains(@href, '/e/') or contains(@href, '/arcv') or contains(@href, '/images') or contains(@href, '/follower') or contains(@href, '/pch'))]",
       "url": "^https://blog\\.goo\\.ne\\.jp/.",
       "exampleUrl": "https://blog.goo.ne.jp/krmmk3 https://blog.goo.ne.jp/isehakusandou\r\nhttps://blog.goo.ne.jp/kishi-akira\r\nhttps://blog.goo.ne.jp/mai_2014yokohama https://blog.goo.ne.jp/portal/tags/DIY https://blog.goo.ne.jp/portal/hotentry_ranking\r\nhttps://blog.goo.ne.jp/krl7003 https://blog.goo.ne.jp/thetrailstore\r\nhttps://blog.goo.ne.jp/adoi"
     },
@@ -44614,7 +44628,7 @@
     "created_by": "haoyayoi",
     "name": "blog.goo.ne.jp 汎用設定（個別記事は除く）",
     "created_at": "2009-03-26T16:23:54+09:00",
-    "updated_at": "2022-05-02T09:10:03+09:00"
+    "updated_at": "2022-06-11T10:27:57+09:00"
   },
   {
     "name": "WEBdeDB.com",
@@ -47098,17 +47112,17 @@
   },
   {
     "resource_url": "http://wedata.net/items/2591",
-    "name": "朝陽の中へ",
     "data": {
+      "pageElement": "//div[@class='blogger__list' or @class='post__list']",
+      "nextLink": "//li[@class='pager--next']/a",
       "url": "^https://blog\\.goo\\.ne\\.jp/portal",
-      "pageElement": "//div[@class='blogger__list']/a",
-      "exampleUrl": "https://blog.goo.ne.jp/portal/access_ranking/",
-      "nextLink": "//li[@class='pager--next']/a"
+      "exampleUrl": "https://blog.goo.ne.jp/portal/access_ranking/\r\nhttps://blog.goo.ne.jp/portal/reaction_ranking"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "uSHISHI",
+    "name": "blog.goo.ne.jp portal",
     "created_at": "2008-09-20T22:33:23+09:00",
-    "updated_at": "2020-03-31T17:04:10+09:00"
+    "updated_at": "2022-06-11T10:43:44+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/2584",
