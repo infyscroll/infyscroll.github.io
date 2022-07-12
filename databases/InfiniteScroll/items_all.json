@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "resource_url": "foo",
+    "name": "bar",
+    "data": {}
+  },
+  {
+    "resource_url": "https://infyscroll.github.io/databases/InfyScroll/items_all.json",
+    "name": "Pixiv - Illustrations and Manga",
+    "data": {
+      "action": "button",
+      "append": "ajax",
+      "buttonDetection": "auto",
+      "buttonPath": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
+      "buttonType": "xpath",
+      "pageElementPath": "id('root')/div[2]/div/div/div/div/section/div/ul/*",
+      "pageElementType": "xpath",
+      "removeElementPath": "//li[@class='sc-l7cibp-2 gpVAva'][./div[@class='sc-rp5asc-0 fxGVAF']]",
+      "type": "regex",
+      "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(illustrations|manga)"
+    }
+  },
+  {
+    "resource_url": "https://infyscroll.github.io/databases/InfyScroll/items_all.json",
+    "name": "Pixiv - Novels",
+    "data": {
+      "action": "button",
+      "append": "ajax",
+      "buttonDetection": "auto",
+      "buttonPath": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
+      "buttonType": "xpath",
+      "pageElementPath": "//div[@class='sc-9y4be5-0 gTaKEp']",
+      "pageElementType": "xpath",
+      "removeElementPath": "//div[@class=\"sc-1dcltmz-0 iRWVTq\"]",
+      "type": "regex",
+      "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(novels)"
+    }
+  },
+  {
+    "resource_url": "https://infyscroll.github.io/databases/InfyScroll/items_all.json",
+    "name": "Mercari JP - Search",
+    "data": {
+      "action": "button",
+      "append": "ajax",
+      "buttonDetection": "auto",
+      "buttonPath": "//mer-button[@data-testid='pagination-next-button']",
+      "buttonType": "xpath",
+      "pageElementPath": "//section[./div[@id='item-grid']]",
+      "pageElementType": "xpath",
+      "removeElementPath": "//section[./ul[@data-testid='item-grid-skeleton']]",
+      "type": "regex",
+      "url": "https://jp\\.mercari\\.com/search\\?"
+    }
+  }
+]
