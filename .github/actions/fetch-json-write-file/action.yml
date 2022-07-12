@@ -1,18 +1,18 @@
 name: 'Fetch JSON Write File Action'
 description: 'This action will fetch a JSON URL and write it to a file in the repository. It takes two inputs, url and file. It also outputs the JSON to a variable.'
 inputs:
-  ap-url:
+  url:
     description: 'AP URL'
-  ap-file:
+  file:
     description: 'AP file name (including the path)'
   is-url:
     description: 'IS URL'
   is-file:
     description: 'IS file name (including the path)'
 outputs:
-  ap-json:
+  json:
     description: 'AP JSON object'
-  ap-successful:
+  successful:
     description: 'AP successful state'
   is-json:
     description: 'IS JSON object'
