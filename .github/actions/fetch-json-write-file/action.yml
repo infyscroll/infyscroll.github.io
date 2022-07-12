@@ -12,8 +12,12 @@ inputs:
 outputs:
   ap-json:
     description: 'AP JSON object'
+  ap-successful:
+    description: 'AP successful state'
   is-json:
     description: 'IS JSON object'
+  is-successful:
+    description: 'IS successful state'
 runs:
   using: 'node16'
   main: 'dist/index.js'
