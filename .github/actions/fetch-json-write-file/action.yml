@@ -1,13 +1,19 @@
 name: 'Fetch JSON Write File Action'
 description: 'This action will fetch a JSON URL and write it to a file in the repository. It takes two inputs, url and file. It also outputs the JSON to a variable.'
 inputs:
-  url:
-    description: 'The URL'
-  file:
-    description: 'The file name (including the path)'
+  ap-url:
+    description: 'AP URL'
+  ap-file:
+    description: 'AP file name (including the path)'
+  is-url:
+    description: 'IS URL'
+  is-file:
+    description: 'IS file name (including the path)'
 outputs:
-  json:
-    description: 'The JSON object'
+  ap-json:
+    description: 'AP JSON object'
+  is-json:
+    description: 'IS JSON object'
 runs:
   using: 'node16'
   main: 'dist/index.js'
