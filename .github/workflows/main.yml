@@ -23,8 +23,10 @@ jobs:
         id: action
         uses: ./.github/actions/fetch-json-write-file
         with:
-          url: 'http://wedata.net/databases/AutoPagerize/items_all.json'
-          file: 'databases/AutoPagerize/items_all.json'
+          ap-url: 'http://wedata.net/databases/AutoPagerize/items_all.json'
+          ap-file: 'databases/AutoPagerize/items_all.json'
+          is-url: 'http://wedata.net/databases/X/items_all.json'
+          is-file: 'databases/X/items_all.json'          
       # Commit: Commit the action's file changes (if successful)
       - name: Commit
         if: steps.action.outputs.successful == 'true'
