@@ -1,5 +1,7 @@
 on:
-  workflow_dispatch
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
 #on: 
 #  workflow_dispatch:
 #    inputs:
@@ -28,7 +30,8 @@ jobs:
           is-file: 'databases/X/items_all.json'          
       # Commit: Commit the action's file changes (if successful)
       - name: Commit
-        if: steps.action.outputs.successful == 'true'
+        # Note: No longer using this if check as it's done internally in the script
+        # if: steps.action.outputs.ap-successful == 'true' || steps.action.outputs.is-successful == 'true'
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
