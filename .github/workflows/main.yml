@@ -1,6 +1,5 @@
 on:
-  schedule:
-    - cron: '0 0 * * *'
+  push
 #on: 
 #  workflow_dispatch:
 #    inputs:
