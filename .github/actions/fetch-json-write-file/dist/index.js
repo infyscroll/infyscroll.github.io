@@ -8527,17 +8527,19 @@ const fs = __nccwpck_require__(7147);
 
 
 (async () => {
+  console.log("execute");
   let successful = false;
   try {
-    const url = core.getInput("ap-url");
+    const url = core.getInput("is-url");
+    const file = core.getInput("is-file");
     const response = await node_fetch__WEBPACK_IMPORTED_MODULE_0___default()(url);
     const json = await response.json();
-    const filter = json.filter(d => d.data && d.data.url && d.data.nextLink && d.data.pageElement);
+    const filter = json.filter(d => d.data && d.data.url);
     if (filter && filter.length > 0) {
       const text = JSON.stringify(json, null, "  ");
       // This output isn't really needed anymore as we are writing the file inside this script, but just for future reference:
       core.setOutput("json", text);
-      fs.writeFile(core.getInput("ap-file"), text, function (err) { if (err) { throw err; } });
+      fs.writeFile(file, text, function (err) { if (err) { throw err; } });
       successful = true;
     } else {
       throw new Error("Empty JSON Filter!");
@@ -8545,6 +8547,7 @@ const fs = __nccwpck_require__(7147);
   } catch (e) {
     console.log(e);
   }
+  console.log("execute, successful=" + successful);
   core.setOutput("successful", successful);
 })(); 
 })();
