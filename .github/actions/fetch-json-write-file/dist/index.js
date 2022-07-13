@@ -8529,7 +8529,8 @@ const fs = __nccwpck_require__(7147);
 
 (async () => {
 
-  async function execute(database) {
+  // async function execute(database) {
+  let database = "is";
     console.log("execute() - database=" + database);
     let successful = false;
     try {
@@ -8554,10 +8555,10 @@ const fs = __nccwpck_require__(7147);
     }
     // core.setOutput(database + "successful", successful);
     console.log("execute() - successful=" + successful);
-  }
+  // }
 
-  await execute("ap");
-  await execute("is");
+  // await execute("ap");
+//  await execute("is");
 
 })();
 })();
