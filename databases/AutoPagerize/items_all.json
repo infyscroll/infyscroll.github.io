@@ -1,10 +1,5 @@
 [
   {
-    "data": {
-      "a": "a"
-    }
-  },
-  {
     "resource_url": "http://wedata.net/items/85937",
     "data": {
       "pageElement": "//div[@class='text01']",

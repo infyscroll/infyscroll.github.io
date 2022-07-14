@@ -7,14 +7,14 @@
       "removeElement": "//li[@class='sc-l7cibp-2 gpVAva'][./div[@class='sc-rp5asc-0 fxGVAF']]",
       "button": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
       "action": "button",
-      "url": "^https://www\\\\.",
+      "url": "^https://www\\\\..",
       "boolea": "true"
     },
     "database_resource_url": "http://wedata.net/databases/X",
     "created_by": "infy",
     "name": "X",
     "created_at": "2022-06-10T23:55:20+09:00",
-    "updated_at": "2022-07-12T22:42:29+09:00"
+    "updated_at": "2022-07-14T01:50:39+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85927",
