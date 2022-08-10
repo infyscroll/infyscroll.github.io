@@ -27,8 +27,8 @@ jobs:
         with:
           ap-url: 'http://wedata.net/databases/AutoPagerize/items_all.json'
           ap-file: 'databases/AutoPagerize/items_all.json'
-          is-url: 'http://wedata.net/databases/X/items_all.json'
-          is-file: 'databases/X/items_all.json'          
+          is-url: 'http://wedata.net/databases/InfyScroll/items_all.json'
+          is-file: 'databases/InfyScroll/items_all.json'
       # Commit: Commit the action's file changes (if successful)
       - name: Commit
         # Note: No longer using this if check as it's done internally in the script
