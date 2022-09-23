@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/85956",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//article/div[contains(concat(' ',@class,' '),' article ')]/*[starts-with(@class,'article__') or contains(concat(' ',@class,' '),' info ')]",
+      "nextLink": "//link[@rel='next']",
+      "url": "^https://(?:www\\.)?travelbook\\.co\\.jp/topic/",
+      "exampleUrl": "https://www.travelbook.co.jp/topic/20120"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "t_f_m'",
+    "name": "おすすめ旅行を探すならトラベルブック(TravelBook)",
+    "created_at": "2022-09-22T17:01:58+09:00",
+    "updated_at": "2022-09-22T17:01:58+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/85955",
     "data": {
       "insertBefore": "",
