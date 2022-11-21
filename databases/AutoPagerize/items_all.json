@@ -1,21 +1,5 @@
 [
   {
-    "resource_url": "http://wedata.net/items/86006",
-    "data": {
-      "insertBefore": "",
-      "pageElement": "id('main')/div[not(@*)][.//a//h3 or .//a/accordion-entry-search-icon]",
-      "comment": "Kindle, Nest Hub, 一部端末の Android 版 Firefox 用",
-      "nextLink": "id('main')[not(id('rso botstuff'))]/footer//a[@aria-label and contains(@href, 'start=') and contains(., '>')]",
-      "url": "^https?://[^./]+\\.google(?:\\.[^./]{2,3}){1,2}/search",
-      "exampleUrl": "http://www.google.com/search?q=autopagerize"
-    },
-    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-    "created_by": "Griever3",
-    "name": "Google Search Mobile (by Kindle etc)",
-    "created_at": "2022-11-19T22:58:45+09:00",
-    "updated_at": "2022-11-19T22:58:45+09:00"
-  },
-  {
     "resource_url": "http://wedata.net/items/86005",
     "data": {
       "insertBefore": "",
@@ -43,7 +27,7 @@
     "created_by": "kenzou_ogawa2",
     "name": "Generic Posts Rule (post)",
     "created_at": "2022-11-18T09:40:53+09:00",
-    "updated_at": "2022-11-20T03:02:53+09:00"
+    "updated_at": "2022-11-21T07:47:46+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/86003",
