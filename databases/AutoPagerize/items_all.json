@@ -16627,7 +16627,7 @@
   {
     "resource_url": "http://wedata.net/items/79970",
     "data": {
-      "pageElement": "//ul[contains(concat(' ',@class,' '),' m-boxListBookProduct2 ')]",
+      "pageElement": "//div[contains(@class,'ListMain')]/ul",
       "nextLink": "//link[@rel=\"next\"]|//li[@data-page]/following-sibling::li[1]/a[contains(@href,\"&page=\")]|//li[contains(concat(' ',./span/@class,' '),' is-current ')]/following-sibling::a",
       "url": "^https://(?:book|www)\\.dmm\\.co(?:m|.jp)/",
       "exampleUrl": "https://book.dmm.com/list/comic/?floor=Gcomic&article=category&id=66032&page=5\r\nhttps://book.dmm.co.jp/list/comic/?floor=Abook&type=magazine&sort=date\r\nhttps://book.dmm.com/search/?service=ebook&searchstr=%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3\r\nhttps://book.dmm.com/list/comic/?floor=Gcomic&sort=ranking\r\nhttps://book.dmm.co.jp/list/comic/?floor=Abook&sort=ranking&type=volume\r\nhttps://book.dmm.com/list/free/comic/?floor=Gcomic&article=category&id=66031%2C66032%2C66035%2C66033%2C66034%2C66066&price_max=0&sort=osusume&view=detail\r\nhttps://book.dmm.co.jp/list/photo/?floor=Aphoto&sort=ranking&view=detail\r\nhttps://book.dmm.com/search/?service=ebook&searchstr=%E3%83%90%E3%83%88%E3%83%AB\r\nhttps://book.dmm.com/list/?category=66031,66032,66035\r\nhttps://book.dmm.co.jp/list/?category=670001,670002,670003"
@@ -16636,7 +16636,7 @@
     "created_by": "t_f_m",
     "name": "DMM 電子書籍",
     "created_at": "2016-03-02T01:46:38+09:00",
-    "updated_at": "2022-12-01T16:07:25+09:00"
+    "updated_at": "2022-12-01T21:04:06+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/79968",
