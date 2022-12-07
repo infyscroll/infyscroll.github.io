@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86022",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//div[contains(@class, 'p-post__heading') or contains(@class, 'p-post__img') or contains(@class, 'p-post__body')]",
+      "nextLink": "//a[@class='p-post__paging--4__next__link']",
+      "url": "^https://jouer-style\\.jp/",
+      "exampleUrl": "https://jouer-style.jp/411"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "sunny",
+    "name": "jouer[ジュエ]",
+    "created_at": "2022-12-07T08:34:09+09:00",
+    "updated_at": "2022-12-07T08:34:09+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/86021",
     "data": {
       "insertBefore": "",
