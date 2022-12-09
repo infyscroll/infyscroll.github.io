@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86024",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "id('mainwrap')/div[not(./p)][last()]/following-sibling::*[1]/preceding-sibling::*",
+      "nextLink": "//link[@rel='next']",
+      "url": "^https://beauty\\.oricon\\.co\\.jp/",
+      "exampleUrl": "https://beauty.oricon.co.jp/special/100852/"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "kenzou_ogawa2",
+    "name": "eltha",
+    "created_at": "2022-12-09T15:57:28+09:00",
+    "updated_at": "2022-12-09T15:57:28+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/86022",
     "data": {
       "pageElement": "//nav[./span]/preceding-sibling::div[last()=1]|//div[@class='p-post__wrap']/div[./following-sibling::div and ./preceding-sibling::div]",
@@ -27855,16 +27870,16 @@
   {
     "resource_url": "http://wedata.net/items/66470",
     "data": {
-      "pageElement": "//div[@class='special-content']/div[@class='block-tags']/preceding-sibling::*|//div[@class='contentsbox clearfix']",
+      "pageElement": "descendant::div[@class='block-pagination'][1]/following-sibling::div[1]/*[contains(@class,'section')][last()]/following-sibling::*[1]/preceding-sibling::*",
       "nextLink": "//link[@rel='next']",
       "url": "^https?://.*oricon\\.co\\.jp/special/.",
-      "exampleUrl": "https://www.oricon.co.jp/special/53133/ https://beauty.oricon.co.jp/special/100852/"
+      "exampleUrl": "https://www.oricon.co.jp/special/53133/"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "jigendaddy_be",
     "name": "ORICON STYLE 特集",
     "created_at": "2013-02-02T21:27:24+09:00",
-    "updated_at": "2022-01-23T19:30:01+09:00"
+    "updated_at": "2022-12-09T15:48:27+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/66390",
