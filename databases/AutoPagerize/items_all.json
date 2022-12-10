@@ -2,17 +2,16 @@
   {
     "resource_url": "http://wedata.net/items/86025",
     "data": {
-      "insertBefore": "",
-      "pageElement": "//div[@class=\"c-wp-post\"]/*[self::p[./text()][last()] or self::h2]|//div[@class=\"c-wp-post\"]/p[./text()][last()]/preceding-sibling::*[./preceding-sibling::h2]",
+      "pageElement": "//div[@class='c-wp-post']/p[./text()][last()]/following-sibling::*[1]/preceding-sibling::*[self::h2 or ./preceding-sibling::h2]",
       "nextLink": "//nav[@class='c-pagination']/span/following-sibling::a[1]",
       "url": "^https://full-count\\.jp/.+/post\\d+",
-      "exampleUrl": "https://full-count.jp/2022/12/09/post1316032/"
+      "exampleUrl": "https://full-count.jp/2022/12/09/post1316032/ https://full-count.jp/2014/04/01/post2052/"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "Griever3",
     "name": "Full-count 記事",
     "created_at": "2022-12-09T22:15:25+09:00",
-    "updated_at": "2022-12-09T22:15:25+09:00"
+    "updated_at": "2022-12-10T09:40:57+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/86024",
@@ -4526,19 +4525,19 @@
     "updated_at": "2020-09-22T17:43:10+09:00"
   },
   {
+    "resource_url": "http://wedata.net/items/85488",
     "data": {
       "pageElement": "//ul[@data-filterable-for='your-repos-filter']",
       "comment": "To do: 1. internationalize (Previous/Next)\r\n       2. change to also work with projects and packages lists",
-      "nextLink": "//div[@data-test-selector=\"pagination\"][count(./a)>1 or ./a/preceding-sibling::button]/a[last()]",
+      "nextLink": "//a[@rel='next']",
       "url": "^https?://github\\.com/[^/]+\\?tab=repositories",
       "exampleUrl": "https://github.com/TarekJor?tab=repositories"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "hhenning",
-    "resource_url": "http://wedata.net/items/85488",
     "name": "github repos list",
     "created_at": "2020-09-11T17:59:04+09:00",
-    "updated_at": "2020-09-22T17:46:28+09:00"
+    "updated_at": "2022-12-10T10:31:44+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85487",
@@ -5008,7 +5007,7 @@
   {
     "resource_url": "http://wedata.net/items/85436",
     "data": {
-      "pageElement": "//article/div/p[./text()][last()]|//article/div/p[./text()][last()]/preceding-sibling::*[./preceding-sibling::ul]",
+      "pageElement": "//div[@class='page-links']/preceding-sibling::*[./preceding-sibling::ul]",
       "nextLink": "//link[@rel=\"next\"]",
       "url": "^https://tsurinews\\.jp/\\d+",
       "exampleUrl": "https://tsurinews.jp/93350/"
@@ -5017,7 +5016,7 @@
     "created_by": "t_f_m_",
     "name": "釣りニュース",
     "created_at": "2020-08-03T12:32:23+09:00",
-    "updated_at": "2022-02-03T16:17:43+09:00"
+    "updated_at": "2022-12-10T10:43:38+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85435",
@@ -6900,18 +6899,18 @@
     "updated_at": "2020-04-04T14:40:00+09:00"
   },
   {
-    "resource_url": "http://wedata.net/items/85276",
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-    "created_at": "2020-04-03T15:49:01+09:00",
     "data": {
-      "pageElement": "//div[starts-with(@class,\"content\")]//p[not(@class=\"date\")]|//div[starts-with(@class,\"content\")]//p[not(@class=\"date\")]/preceding-sibling::*|id(\"searchResult\")/ul/li",
-      "exampleUrl": "https://project.nikkeibp.co.jp/behealth/atcl/column/00011/031000007/ https://project.nikkeibp.co.jp/atclhco/20110322/264486/?P=3 https://project.nikkeibp.co.jp/hco/search.html?q=2",
+      "pageElement": "//div[@class=\"articleBody\"]",
+      "nextLink": "//a[@class=\"pagenationNextButton\"]",
       "url": "^https://project\\.nikkeibp\\.co\\.jp/",
-      "nextLink": "//a[@class='pagenationNextButton' or @class='next']"
+      "exampleUrl": "https://project.nikkeibp.co.jp/behealth/atcl/column/00011/031000007/"
     },
-    "updated_at": "2020-05-15T09:09:49+09:00",
+    "created_by": "t_f_m_",
+    "resource_url": "http://wedata.net/items/85276",
     "name": "日経BP Beyond Health",
-    "created_by": "t_f_m_"
+    "created_at": "2020-04-03T15:49:01+09:00",
+    "updated_at": "2022-12-10T10:58:00+09:00"
   },
   {
     "name": "DIYChatroom Articles",
@@ -25664,16 +25663,16 @@
   {
     "resource_url": "http://wedata.net/items/74694",
     "data": {
-      "pageElement": "//*[count(./article)>1]/article|//div[@class=\"c-wp-post\"]/*[self::p[./text()][last()] or self::h2]|//div[@class=\"c-wp-post\"]/p[./text()][last()]/preceding-sibling::*[./preceding-sibling::h2]",
+      "pageElement": "//*[count(./article)>1]/article",
       "nextLink": "//nav[@class='c-pagination']/span/following-sibling::a[1]",
       "url": "^https://full-count\\.jp/.+",
-      "exampleUrl": "https://full-count.jp/2014/04/01/post2052/\r\nhttps://full-count.jp/2022/02/05/post1182024/\r\nhttps://full-count.jp/category/mlb/"
+      "exampleUrl": "https://full-count.jp/category/mlb/"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "soolo",
     "name": "Full-count",
     "created_at": "2014-04-01T10:55:15+09:00",
-    "updated_at": "2022-02-07T20:35:19+09:00"
+    "updated_at": "2022-12-10T09:41:46+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/74691",
