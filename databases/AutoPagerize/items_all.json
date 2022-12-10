@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86025",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//div[@class=\"c-wp-post\"]/*[self::p[./text()][last()] or self::h2]|//div[@class=\"c-wp-post\"]/p[./text()][last()]/preceding-sibling::*[./preceding-sibling::h2]",
+      "nextLink": "//nav[@class='c-pagination']/span/following-sibling::a[1]",
+      "url": "^https://full-count\\.jp/.+/post\\d+",
+      "exampleUrl": "https://full-count.jp/2022/12/09/post1316032/"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "Griever3",
+    "name": "Full-count 記事",
+    "created_at": "2022-12-09T22:15:25+09:00",
+    "updated_at": "2022-12-09T22:15:25+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/86024",
     "data": {
       "insertBefore": "",
