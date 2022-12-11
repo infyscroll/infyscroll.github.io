@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86026",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "id('article-contents')",
+      "nextLink": "//a[@rel='next']",
+      "url": "^https://hanada-plus\\.jp/articles/\\d+",
+      "exampleUrl": "https://hanada-plus.jp/articles/1150"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "Griever3",
+    "name": "Hanadaプラス 記事",
+    "created_at": "2022-12-11T08:49:07+09:00",
+    "updated_at": "2022-12-11T08:49:07+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/86025",
     "data": {
       "pageElement": "//div[@class='c-wp-post']/p[./text()][last()]/following-sibling::*[1]/preceding-sibling::*[self::h2 or ./preceding-sibling::h2]",
