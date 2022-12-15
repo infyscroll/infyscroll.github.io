@@ -2,12 +2,15 @@
   {
     "resource_url": "http://wedata.net/items/85954",
     "data": {
-      "pageElement": "",
-      "append": "_",
-      "removeElement": "",
-      "button": "",
-      "action": "_",
-      "url": "_"
+  "action": "increment",
+  "append": "page",
+  "base": "10",
+  "interval": "1",
+  "lazyLoad": "auto",
+  "selectionPriority": "smart",
+  "selectionStart": "52",
+  "type": "pattern",
+  "url": "https://safebooru.org/index.php?page=post&s=view&id="
     },
     "database_resource_url": "http://wedata.net/databases/InfyScroll",
     "created_by": "infy",
