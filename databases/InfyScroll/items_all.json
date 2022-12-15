@@ -89,7 +89,8 @@
       "removeElement": "//li[@class='sc-l7cibp-2 gpVAva'][./div[@class='sc-rp5asc-0 fxGVAF']]|//li[not(div)]",
       "button": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
       "action": "button",
-      "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(illustrations|manga)"
+      "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(illustrations|manga)",
+      "spa": "^https://www\.pixiv\.net/"
     },
     "database_resource_url": "http://wedata.net/databases/InfyScroll",
     "created_by": "infy",
