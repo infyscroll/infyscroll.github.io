@@ -2,14 +2,12 @@
   {
     "resource_url": "http://wedata.net/items/85954",
     "data": {
-  "action": "increment",
-  "append": "page",
-  "base": "10",
-  "interval": "-1",
-  "selectionPriority": "smart",
-  "selectionStart": "52",
-  "type": "pattern",
-  "url": "https://safebooru.org/index.php?page=post&s=view&id="
+      "pageElement": "",
+      "append": "_",
+      "removeElement": "",
+      "button": "",
+      "action": "_",
+      "url": "_"
     },
     "database_resource_url": "http://wedata.net/databases/InfyScroll",
     "created_by": "infy",
@@ -89,8 +87,7 @@
       "removeElement": "//li[@class='sc-l7cibp-2 gpVAva'][./div[@class='sc-rp5asc-0 fxGVAF']]|//li[not(div)]",
       "button": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
       "action": "button",
-      "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(illustrations|manga)",
-      "spa": "^https://www\\.pixiv\\.net"
+      "url": "^https://www\\.pixiv\\.net/.*/?tags/.*/(illustrations|manga)"
     },
     "database_resource_url": "http://wedata.net/databases/InfyScroll",
     "created_by": "infy",
