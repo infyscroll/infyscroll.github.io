@@ -23467,7 +23467,8 @@
       "exampleUrl": "https://github.com/azu/promises-book/issues?page=2&q=is%3Aissue+is%3Aclosed\r\nhttps://github.com/azu/promises-book/pulls?q=is%3Apr+is%3Aclosed",
       "nextLink": "//a[@class='next_page']",
       "url": "^https:\\/\\/github\\.com\\/[^/]+\\/[^/]+\\/(?:issues|pulls)",
-      "pageElement": "//div[starts-with(@id,'issue_')]"
+      "pageElement": "//div[starts-with(@id,'issue_')]",
+      "spa": "https://github.com"
     },
     "created_at": "2014-09-15T01:16:14+09:00",
     "resource_url": "http://wedata.net/items/76335",
