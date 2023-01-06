@@ -47,18 +47,17 @@
   {
     "resource_url": "http://wedata.net/items/85939",
     "data": {
-      "pageElement": "html[@lang='ja']//ul[@class='sc-l7cibp-1 krFoBL']/*|html[not(@lang='ja')]//div[@class='sc-l7cibp-0 juyBTC']/*",
+      "pageElement": "//ul[@class='sc-l7cibp-1 krFoBL']/*",
       "append": "ajax",
-      "removeElement": "//li[@class='sc-l7cibp-2 gpVAva'][not(.//div[@type='illust'])]|//div[@class='sc-1rgyha8-0 leTtkh']|(//*[@class='sc-l7cibp-3 gCRmsl'])[position()<last()]",
       "button": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
       "action": "button",
       "spa": "https://www.pixiv.net",
-      "url": "^https://www\\.pixiv\\.net/.*/?tags/"
+      "url": "!^https://www\\.pixiv\\.net/.*"
     },
     "database_resource_url": "http://wedata.net/databases/InfyScroll",
     "created_by": "infy",
     "name": "Pixiv (AJAX)",
     "created_at": "2022-08-01T12:28:27+09:00",
-    "updated_at": "2023-01-03T15:03:53+09:00"
+    "updated_at": "2023-01-06T02:00:33+09:00"
   }
 ]
