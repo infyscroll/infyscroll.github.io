@@ -121,7 +121,7 @@
   {
     "resource_url": "http://wedata.net/items/86034",
     "data": {
-      "pageElement": "(//div[@class='block block--messages'] | //div[@class='structItemContainer'])[1] | //div[@class='p-body-content']\r\n",
+      "pageElement": "(//div[@class='block block--messages'] | //div[@class='structItemContainer'])[1] | //div[@class='p-body-pageContent']\r\n",
       "nextLink": "//*[@rel=\"next\"]",
       "url": "https://www\\.giaiphapexcel\\.com/diendan/"
     },
@@ -129,7 +129,7 @@
     "created_by": "powertalent",
     "name": "giaiphapexcel.com",
     "created_at": "2022-12-26T08:25:45+09:00",
-    "updated_at": "2023-01-08T20:31:40+09:00"
+    "updated_at": "2023-01-08T20:32:59+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/86033",
