@@ -1,5 +1,19 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86054",
+    "data": {
+      "pageElement": "id(\"content-wrapper\")/section[@class=\"container content\"]/div[@class=\"row\"]",
+      "nextLink": "//a[contains(text(), '›')]",
+      "url": "^https?://(.*?)\\.?ephoto360.com/",
+      "exampleUrl": "https://en.ephoto360.com/"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "powertalent",
+    "name": "ephoto360.com | Online photo effects, online text effect, frame effect",
+    "created_at": "2023-01-19T16:48:20+09:00",
+    "updated_at": "2023-01-19T16:50:35+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/86053",
     "data": {
       "insertBefore": "",
@@ -24999,7 +25013,7 @@
     "resource_url": "http://wedata.net/items/74923",
     "data": {
       "pageElement": "//div[contains(@class,'a-archive-grid__story')]|descendant::*[./div[contains(@class,'o-card')]][1]|//div[@class='story_list_blk']/*|//li[@class='l-list__item'][article]|id('main')/article[@id]",
-      "nextLink": "//link[@rel='next']|//a[contains(@class,'next')]|//div[@class='nav-previous']/a|//div[contains(@class,\"more-stories\")]/a",
+      "nextLink": "descendant::a[contains(@class,'next')][last()]|//div[@class='nav-previous']/a|//div[contains(@class,'more-stories')]/a[contains(@class,'a-icon-right-arrow')]",
       "url": "^https?://.*(?:bollywoodlife|(dead|tv)line|footwearnews)\\.com",
       "exampleUrl": "https://www.deadline.com/ https://deadline.com/vcategory/the-contenders-emmys/page/2/ https://deadline.com/tag/caa/page/2/ https://www.bollywoodlife.com/ https://footwearnews.com/page/2/ https://tvline.com/"
     },
@@ -25007,7 +25021,7 @@
     "created_by": "Tanookirby",
     "name": "PMC Brands",
     "created_at": "2014-06-26T02:58:29+09:00",
-    "updated_at": "2023-01-18T11:51:37+09:00"
+    "updated_at": "2023-01-19T10:38:53+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/74912",
