@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86065",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "//div[contains(concat(' ',@class,' '),' m-item-list ')]/article",
+      "nextLink": "//div[@class='m-pagination']//li[contains(concat(' ',a/@class,' '),' is-active ')]/following-sibling::li/a",
+      "url": "^https://fumufumunews\\.jp/",
+      "exampleUrl": "https://fumufumunews.jp/list/tag/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC?page=2"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "t_f_m'",
+    "name": "fumufumu news フムフムニュース",
+    "created_at": "2023-02-03T23:39:23+09:00",
+    "updated_at": "2023-02-03T23:39:23+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/86064",
     "data": {
       "insertBefore": "",
