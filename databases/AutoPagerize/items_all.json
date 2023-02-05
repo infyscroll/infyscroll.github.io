@@ -25794,17 +25794,17 @@
   },
   {
     "resource_url": "http://wedata.net/items/74789",
-    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
-    "created_at": "2014-04-22T20:37:42+09:00",
     "data": {
-      "pageElement": "//div[@itemprop=\"articleBody\"]/p",
-      "exampleUrl": "https://bizgate.nikkei.co.jp/article/DGXMZO5957527026052020000000?channel=DF050420183723",
-      "url": "http://bizgate\\.nikkei\\.co\\.jp/article/.+",
-      "nextLink": "//link[@rel=\"next\"]"
+      "pageElement": "//div[@itemprop='articleBody']/p[last()]|//div[@itemprop='articleBody']/p[last()]/preceding-sibling::*",
+      "nextLink": "//link[@rel=\"next\"]",
+      "url": "https://bizgate\\.nikkei\\.co\\.jp/article/.+",
+      "exampleUrl": "https://bizgate.nikkei.co.jp/article/DGXMZO5957527026052020000000?channel=DF050420183723"
     },
-    "updated_at": "2020-05-28T15:20:55+09:00",
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "nkmry",
     "name": "日経BizGate",
-    "created_by": "nkmry"
+    "created_at": "2014-04-22T20:37:42+09:00",
+    "updated_at": "2023-02-05T14:07:30+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/74786",
@@ -42371,17 +42371,17 @@
   {
     "resource_url": "http://wedata.net/items/31897",
     "data": {
-      "pageElement": "//ul[./li[@class=\"m-miM32_item\"]]",
+      "pageElement": "//div[@class='m-pageNation']/preceding-sibling::*",
       "comment": "If pageElement is specified by li, autopagerize_page_info will not be displayed.",
       "nextLink": "//div[@class='m-pageNation']//li[last()]/a[not(number(.)>0)]",
       "url": "^https://(www\\.)?nikkei\\.com/",
-      "exampleUrl": "https://www.nikkei.com/news/category/"
+      "exampleUrl": "https://www.nikkei.com/news/category/\r\nhttps://www.nikkei.com/business/archive/"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "raitu",
     "name": "日本経済新聞",
     "created_at": "2010-03-23T16:27:51+09:00",
-    "updated_at": "2022-01-27T07:32:48+09:00"
+    "updated_at": "2023-02-05T12:56:47+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/31877",
@@ -48073,7 +48073,8 @@
     "resource_url": "http://wedata.net/items/2761",
     "data": {
       "pageElement": "//div[starts-with(@class,'listingResult ')]|id('article-body')/*",
-      "nextLink": "//link[@rel='next']",
+      "comment": "link[@rel='next'] is 404. https://www.techradar.com/gaming",
+      "nextLink": "//li[contains(concat(' ', @class, ' '), ' current-page ')]/following-sibling::li[1]/a",
       "url": "^https://(www\\.)?techradar\\.com/.",
       "exampleUrl": "https://www.techradar.com/how-to https://www.techradar.com/uk/news/world-of-tech/roundup/excel-tutorial-sales-and-commissions-1088415"
     },
@@ -48081,7 +48082,7 @@
     "created_by": "triptoy",
     "name": "TechRadar",
     "created_at": "2008-10-06T08:26:15+09:00",
-    "updated_at": "2020-09-20T04:39:55+09:00"
+    "updated_at": "2023-02-05T10:43:33+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/2759",
