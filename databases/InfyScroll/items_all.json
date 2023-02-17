@@ -51,14 +51,14 @@
       "append": "ajax",
       "button": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
       "loadElement": "//ul[@class='sc-l7cibp-1 krFoBL']//figure|//ul[@class='sc-9y4be5-1 fGdOsh']//figure",
-      "action": "button",
-      "spa": "!^https://www\\.pixiv\\.net",
+      "spaf": "!^https://www\\.pixiv\\.net",
+      "action": "click",
       "url": "!^https://www\\.pixiv\\.net/.*"
     },
     "database_resource_url": "http://wedata.net/databases/InfyScroll",
     "created_by": "infy",
     "name": "Pixiv (AJAX)",
     "created_at": "2022-08-01T12:28:27+09:00",
-    "updated_at": "2023-01-18T04:33:13+09:00"
+    "updated_at": "2023-02-17T11:42:08+09:00"
   }
 ]
