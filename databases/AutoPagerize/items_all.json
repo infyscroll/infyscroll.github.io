@@ -1,5 +1,19 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86078",
+    "data": {
+      "pageElement": "//dl[contains(concat(\" \", normalize-space(@class), \" \"), \" news_block \")]",
+      "nextLink": "//div[@class=\"next\"]//a",
+      "url": "https?://www\\.at-x\\.com/(?:news|whats_new)",
+      "exampleUrl": "https://www.at-x.com/news?page=0"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "awoifajwojfiawf",
+    "name": "at-x ニュース",
+    "created_at": "2023-02-24T04:39:37+09:00",
+    "updated_at": "2023-02-24T04:41:56+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/86076",
     "data": {
       "pageElement": "//div[@class=\"thread_wrapper\"]",
