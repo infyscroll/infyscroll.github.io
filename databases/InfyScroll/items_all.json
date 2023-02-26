@@ -1,21 +1,21 @@
 [
   {
-    "resource_url": "http://wedata.net/items/86079",
     "data": {
       "pageElement": "//div[@class='search-results-container']/*",
       "append": "ajax",
       "button": "//button[@aria-label='Next'][contains(.,'Next')]",
       "action": "click",
-      "spa": "^https://www\\\\.linkedin\\\\.com/search/results",
+      "spa": "^https://www\\.linkedin\\.com/search/results",
       "comment": "https://github.com/sixcious/infy-scroll/issues/52",
-      "url": "^https://www\\\\.linkedin\\\\.com/search/results/",
+      "url": "^https://www\\.linkedin\\.com/search/results/",
       "exampleUrl": "https://www.linkedin.com/search/results/people/?keywords=informatique&origin=SWITCH_SEARCH_VERTICAL&sid=Fpy"
     },
     "database_resource_url": "http://wedata.net/databases/InfyScroll",
     "created_by": "infy",
+    "resource_url": "http://wedata.net/items/86079",
     "name": "LinkedIn Search",
     "created_at": "2023-02-25T09:16:35+09:00",
-    "updated_at": "2023-02-25T09:17:06+09:00"
+    "updated_at": "2023-02-26T02:48:02+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85954",
