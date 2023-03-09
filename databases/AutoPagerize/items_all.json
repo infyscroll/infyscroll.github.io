@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86092",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "id(\"breadcrumbs\")/following-sibling::*[following-sibling::a[@class=\"post-page-numbers\"]]",
+      "nextLink": "//span[@aria-current=\"page\"]/following-sibling::a",
+      "url": "^https://study-z\\.net/\\d",
+      "exampleUrl": "https://study-z.net/100063091"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "eom",
+    "name": "Study-Z",
+    "created_at": "2023-03-08T22:40:06+09:00",
+    "updated_at": "2023-03-08T22:40:06+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/86091",
     "data": {
       "pageElement": "//main/article",
@@ -30,16 +45,16 @@
   {
     "resource_url": "http://wedata.net/items/86089",
     "data": {
-      "pageElement": "/html/body/div[1]/main/section/ul",
-      "nextLink": "/html/body/div[1]/main/ul/li[5]/a",
-      "url": "^https://fc\\\\.hashimotokanna\\\\.jp/movie/list/1",
+      "pageElement": "//main/section/ul[@class='list--contents']",
+      "nextLink": "//li[@class='pager__item--older']/a",
+      "url": "^https://fc\\.hashimotokanna\\.jp/movie/list/1",
       "exampleUrl": "https://fc.hashimotokanna.jp/movie/list/1"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "2q5HAX7iN8QG7Fp3gngW",
     "name": "橋本純情内科 動画",
     "created_at": "2023-03-08T12:04:46+09:00",
-    "updated_at": "2023-03-08T12:04:59+09:00"
+    "updated_at": "2023-03-09T00:54:33+09:00"
   },
   {
     "data": {
@@ -71,19 +86,18 @@
     "updated_at": "2023-03-07T18:51:15+09:00"
   },
   {
+    "resource_url": "http://wedata.net/items/86086",
     "data": {
-      "insertBefore": "",
-      "pageElement": "//*[@id=\"cnt-list\"]",
-      "nextLink": "//*[@class=\"next\"]/a",
-      "url": "^https://cosmeet.cosme\\\\.net/(product|review|brand)*/search(\\\\?|/|/page/.*)fw=?.*",
-      "exampleUrl": ""
+      "pageElement": "id('cnt-list')/div",
+      "nextLink": "//link[@rel='next']",
+      "url": "^https://cosmeet\\.cosme\\.net/\\w+/search",
+      "exampleUrl": "https://cosmeet.cosme.net/product/search/fw/%83t%83%40%83%93%83f\r\nhttps://cosmeet.cosme.net/review/search/fw/%83t%83%40%83%93%83f\r\nhttps://cosmeet.cosme.net/brand/search/fw/%83t%83%40%83%93%83f"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "2q5HAX7iN8QG7Fp3gngW",
-    "resource_url": "http://wedata.net/items/86086",
     "name": "@cosme",
     "created_at": "2023-03-06T09:06:26+09:00",
-    "updated_at": "2023-03-06T09:06:26+09:00"
+    "updated_at": "2023-03-08T22:07:35+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/86084",
