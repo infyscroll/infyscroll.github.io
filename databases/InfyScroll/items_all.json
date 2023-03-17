@@ -83,19 +83,19 @@
   {
     "resource_url": "http://wedata.net/items/85939",
     "data": {
-      "pageElement": "//ul[@class='sc-l7cibp-1 krFoBL']/*",
+      "pageElement": "//section/div/ul | //section/div/div/ul | //section/div/div/div/ul",
       "append": "ajax",
       "button": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
-      "loadElement": "//ul[@class='sc-l7cibp-1 krFoBL']//figure|//ul[@class='sc-9y4be5-1 fGdOsh']//figure",
-      "spaf": "!^https://www\\.pixiv\\.net",
+      "loadElement": "//section//div/ul//figure",
+      "spaf": "^https://www\\.pixiv\\.net/.*",
       "action": "click",
-      "url": "!^https://www\\.pixiv\\.net/.*",
+      "url": "^https://www\\.pixiv\\.net/.*",
       "exampleUrl": "https://www.pixiv.net/tags/オリジナル/artworks"
     },
     "database_resource_url": "http://wedata.net/databases/InfyScroll",
     "created_by": "infy",
     "name": "Pixiv (AJAX)",
     "created_at": "2022-08-01T12:28:27+09:00",
-    "updated_at": "2023-02-22T09:15:20+09:00"
+    "updated_at": "2023-03-17T06:40:51+09:00"
   }
 ]
