@@ -50846,16 +50846,16 @@
   {
     "resource_url": "http://wedata.net/items/1669",
     "data": {
-      "pageElement": "//div[contains(@class,\"article-body\")]/p|//div[@class=\"NewsDetail\"]/*[not(count(./a)=1)]",
+      "pageElement": "//div[contains(@class,\"article-body\")]/*[self::p or self::figure or contains(self::div/@class, 'html')]|//div[@class=\"NewsDetail\"]/*[not(count(./a)=1)]",
       "nextLink": "//link[@rel=\"next\"]",
       "url": "^https?://(?:race|www)\\.sanspo\\.com/",
-      "exampleUrl": "http://www.sanspo.com/baseball/news/20150609/bbo15060905050004-n1.html\r\nhttp://www.sanspo.com/baseball/news/20150609/bbo15060905040002-n1.html\r\nhttp://race.sanspo.com/keiba/news/20180625/ope18062505090011-n1.html"
+      "exampleUrl": "https://www.sanspo.com/article/20150609-YI4RDXJ3WBLBVBNPK774XQAQ7Y/\r\nhttps://www.sanspo.com/article/20150609-FDK5SVYCZVJMPBURD34KKANVRM/\r\nhttp://race.sanspo.com/keiba/news/20180625/ope18062505090011-n1.html\r\nhttps://www.sanspo.com/article/20230308-F4GQKOTHHRJINABAI7TOZXETBI/\r\nhttps://www.sanspo.com/article/20230314-7CJFDCSPB5NMHK4FKE2RR4GALM/"
     },
     "database_resource_url": "http://wedata.net/databases/AutoPagerize",
     "created_by": "nax",
     "name": "SANSPO.COM",
     "created_at": "2008-06-11T16:07:41+09:00",
-    "updated_at": "2021-10-20T14:28:17+09:00"
+    "updated_at": "2023-03-25T09:09:16+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/1654",
