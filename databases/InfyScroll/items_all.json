@@ -17,10 +17,11 @@
     "updated_at": "2023-04-04T06:38:28+09:00"
   },
   {
+    "resource_url": "http://wedata.net/items/86079",
     "data": {
+      "clickElement": "//button[@aria-label='Next'][contains(.,'Next')]",
       "pageElement": "//div[@class='search-results-container']/*",
       "append": "ajax",
-      "button": "//button[@aria-label='Next'][contains(.,'Next')]",
       "action": "click",
       "spa": "^https://www\\.linkedin\\.com/search/results",
       "comment": "https://github.com/sixcious/infy-scroll/issues/52",
@@ -29,10 +30,9 @@
     },
     "database_resource_url": "http://wedata.net/databases/InfyScroll",
     "created_by": "infy",
-    "resource_url": "http://wedata.net/items/86079",
     "name": "LinkedIn Search",
     "created_at": "2023-02-25T09:16:35+09:00",
-    "updated_at": "2023-02-26T02:48:02+09:00"
+    "updated_at": "2023-04-22T00:56:42+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85954",
@@ -64,9 +64,9 @@
   {
     "resource_url": "http://wedata.net/items/85951",
     "data": {
+      "clickElement": "//div[@class='pager']/a[contains(@class, 'next')][./div[@class='arrow']]",
       "pageElement": "//div[contains(@class, 'works-grid-list')]",
       "append": "ajax",
-      "button": "//div[@class='pager']/a[contains(@class, 'next')][./div[@class='arrow']]",
       "spaf": "^https://www\\.pixiv\\.net/.*",
       "action": "click",
       "url": "^https://www\\.pixiv\\.net/.*",
@@ -76,15 +76,15 @@
     "created_by": "infy",
     "name": "Pixiv Mobile (AJAX)",
     "created_at": "2022-09-01T13:37:57+09:00",
-    "updated_at": "2023-03-20T09:15:08+09:00"
+    "updated_at": "2023-04-22T00:56:04+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85950",
     "data": {
+      "clickElement": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
       "pageElement": "html[@lang='ja']//ul[@class='sc-l7cibp-1 krFoBL']/*|html[not(@lang='ja')]//div[@class='sc-l7cibp-0 juyBTC']/*",
       "append": "ajax",
       "removeElement": "//li[@class='sc-l7cibp-2 gpVAva'][not(.//div[@type='illust'])]|//div[@class='sc-1rgyha8-0 leTtkh']|(//*[@class='sc-l7cibp-3 gCRmsl'])[position()<last()]",
-      "button": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
       "ajaxMode": "native",
       "spaf": "!^https://www\\.pixiv\\.net",
       "action": "click",
@@ -95,14 +95,14 @@
     "created_by": "infy",
     "name": "Pixiv (AJAX Native)",
     "created_at": "2022-09-01T13:37:25+09:00",
-    "updated_at": "2023-02-22T09:15:41+09:00"
+    "updated_at": "2023-04-22T00:55:33+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/85939",
     "data": {
+      "clickElement": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
       "pageElement": "//section/div/ul | //section/div/div/ul | //section/div/div/div/ul",
       "append": "ajax",
-      "button": "//nav/button[@aria-current='true']/following-sibling::a[not(@hidden)]",
       "loadElement": "//section//div/ul//figure",
       "spaf": "^https://www\\.pixiv\\.net/.*",
       "action": "click",
@@ -113,6 +113,6 @@
     "created_by": "infy",
     "name": "Pixiv (AJAX)",
     "created_at": "2022-08-01T12:28:27+09:00",
-    "updated_at": "2023-03-17T06:40:51+09:00"
+    "updated_at": "2023-04-22T00:54:53+09:00"
   }
 ]
