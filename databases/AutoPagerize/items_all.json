@@ -1,5 +1,20 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86107",
+    "data": {
+      "insertBefore": "",
+      "pageElement": "id(\"post_content\")/*[not(@class=\"page-links-set\")] | //div[@class=\"c-archive_list\"]",
+      "nextLink": "//link[@rel=\"next\"]",
+      "url": "^https?://melos\\.media/",
+      "exampleUrl": "https://melos.media/training/46433/2/\r\nhttps://melos.media/training/"
+    },
+    "database_resource_url": "http://wedata.net/databases/AutoPagerize",
+    "created_by": "awoifajwojfiawf",
+    "name": "melos",
+    "created_at": "2023-04-22T19:27:19+09:00",
+    "updated_at": "2023-04-22T19:27:19+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/86106",
     "data": {
       "insertBefore": "",
