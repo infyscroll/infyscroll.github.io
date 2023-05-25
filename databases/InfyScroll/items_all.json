@@ -1,5 +1,25 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86124",
+    "data": {
+      "mediaType": "image",
+      "append": "media",
+      "action": "increment",
+      "comment": "Increment URL Example",
+      "selectionStrategy": "smart",
+      "base": "10",
+      "leadingZeros": "true",
+      "url": "^http://ftp\\.acc\\.umu\\.se/mirror/archive/ftp\\.sunet\\.se/pub/pictures/anime-manga/SailorMoon/Images/TV/001/001",
+      "interval": "1",
+      "exampleUrl": "http://ftp.acc.umu.se/mirror/archive/ftp.sunet.se/pub/pictures/anime-manga/SailorMoon/Images/TV/001/001usa01.jpg"
+    },
+    "database_resource_url": "http://wedata.net/databases/InfyScroll",
+    "created_by": "infy",
+    "name": "Increment URL Example",
+    "created_at": "2023-05-25T04:05:53+09:00",
+    "updated_at": "2023-05-25T05:23:25+09:00"
+  },
+  {
     "data": {
       "clickElement": "//button[@aria-label='Go to next reviews']",
       "pageElement": "//div[@class='tt-c-reviews-list__content']/*",
