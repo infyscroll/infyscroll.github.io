@@ -1,10 +1,29 @@
 [
   {
+    "resource_url": "http://wedata.net/items/86131",
+    "data": {
+      "clickElement": "//button[@class='pagination__next-prev-button next']|//button[@class='css-k54ldh']",
+      "pageElement": "//div[@class='vo-bg css-1rxtqz8']|//div[@class='css-p5oja0']/*",
+      "append": "ajax",
+      "loadElement": "//img[contains(@class,'css-1tth2jd')]",
+      "action": "click",
+      "comment": "SPA Mirror Page Import Example. Important: Not for Startpage's Web due to high CPU usage, but Web (and Mobile Web) could be added by adding the following to the pageElement: |//section[contains(@class,'w-gl')]/*[not(self::h3)]|//div[contains(@class,'w-bg')]/*. Not for Images due to links not being clickable, but Images could be added by adding the following to the pageElement: |//div[contains(@class,'image-main-container')]",
+      "mirrorPage": "import",
+      "url": "^https://www\\.startpage\\.com/",
+      "exampleUrl": "https://www.startpage.com/"
+    },
+    "database_resource_url": "http://wedata.net/databases/InfyScroll",
+    "created_by": "infy",
+    "name": "Startpage",
+    "created_at": "2023-06-08T03:57:23+09:00",
+    "updated_at": "2023-06-08T07:10:47+09:00"
+  },
+  {
     "resource_url": "http://wedata.net/items/86128",
     "data": {
       "clickElement": "//div[@class='gsc-cursor-page gsc-cursor-current-page']/following-sibling::div[1]",
       "pageElement": "//div[@class='gsc-results gsc-webResult']/div[@class='gsc-expansionArea']/*",
-      "style": ".gsc-loading-resultsRoot {\r\n    all: unset !important;\r\n}",
+      "style": ".gsc-loading-resultsRoot { all: unset !important; }",
       "append": "ajax",
       "disableScrollElement": "//*",
       "ajaxMode": "native",
@@ -17,7 +36,7 @@
     "created_by": "infy",
     "name": "Search Craigslist",
     "created_at": "2023-06-01T13:16:42+09:00",
-    "updated_at": "2023-06-03T23:31:45+09:00"
+    "updated_at": "2023-06-08T04:02:03+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/86125",
@@ -58,6 +77,7 @@
     "updated_at": "2023-05-25T05:23:25+09:00"
   },
   {
+    "resource_url": "http://wedata.net/items/86120",
     "data": {
       "clickElement": "//button[@aria-label='Go to next reviews']",
       "pageElement": "//div[@class='tt-c-reviews-list__content']/*",
@@ -65,17 +85,16 @@
       "puppet": "await page.click(\"[data-test='reviewsAccordionClick'] > summary\");\r\nawait page.click(\"button[data-test='more-reviews']\");",
       "action": "click",
       "spa": "^https://www\\.nike\\.com/t/",
-      "comment": "SPA Mirror Page Puppeteering Example",
+      "comment": "SPA Mirror Page Puppeteer Example",
       "mirrorPage": "puppet",
       "url": "^https://www\\.nike\\.com/t/",
       "exampleUrl": "https://www.nike.com/t/lebron-xx-four-horsemen-basketball-shoes-ct1qVm/DJ5423-002"
     },
     "database_resource_url": "http://wedata.net/databases/InfyScroll",
     "created_by": "infy",
-    "resource_url": "http://wedata.net/items/86120",
     "name": "Nike Reviews",
     "created_at": "2023-05-11T08:26:29+09:00",
-    "updated_at": "2023-05-11T22:41:28+09:00"
+    "updated_at": "2023-06-08T04:01:42+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/86113",
