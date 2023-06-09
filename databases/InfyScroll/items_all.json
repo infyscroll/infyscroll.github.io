@@ -5,7 +5,7 @@
       "clickElement": "//button[@class='pagination__next-prev-button next']|//button[@class='css-k54ldh']",
       "pageElement": "//div[@class='vo-bg css-1rxtqz8']|//div[@class='css-p5oja0']/*",
       "append": "ajax",
-      "loadElement": "//img[contains(@class,'css-1tth2jd')]",
+      "loadElement": "//img[contains(@class,'css-1tth2jd')]|//img[contains(@class,'css-k35lnn')]",
       "action": "click",
       "comment": "SPA Mirror Page Import Example. Important: Not for Startpage's Web due to high CPU usage, but Web (and Mobile Web) could be added by adding the following to the pageElement: |//section[contains(@class,'w-gl')]/*[not(self::h3)]|//div[contains(@class,'w-bg')]/*. Not for Images due to links not being clickable, but Images could be added by adding the following to the pageElement: |//div[contains(@class,'image-main-container')]",
       "mirrorPage": "import",
@@ -16,7 +16,7 @@
     "created_by": "infy",
     "name": "Startpage",
     "created_at": "2023-06-08T03:57:23+09:00",
-    "updated_at": "2023-06-08T07:10:47+09:00"
+    "updated_at": "2023-06-09T02:36:00+09:00"
   },
   {
     "resource_url": "http://wedata.net/items/86128",
